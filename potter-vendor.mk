@@ -50,10 +50,22 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
     vendor/motorola/potter/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/motorola/potter/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
+    vendor/motorola/potter/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
+    vendor/motorola/potter/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
+    vendor/motorola/potter/proprietary/etc/cne/wqeclient/ATT/ATT_profile1.xml:system/etc/cne/wqeclient/ATT/ATT_profile1.xml \
+    vendor/motorola/potter/proprietary/etc/cne/wqeclient/ATT/ATT_profile2.xml:system/etc/cne/wqeclient/ATT/ATT_profile2.xml \
+    vendor/motorola/potter/proprietary/etc/cne/wqeclient/ATT/ATT_profile3.xml:system/etc/cne/wqeclient/ATT/ATT_profile3.xml \
+    vendor/motorola/potter/proprietary/etc/cne/wqeclient/ATT/ATT_profile4.xml:system/etc/cne/wqeclient/ATT/ATT_profile4.xml \
     vendor/motorola/potter/proprietary/etc/cne/wqeclient/ROW/ROW_profile1.xml:system/etc/cne/wqeclient/ROW/ROW_profile1.xml \
     vendor/motorola/potter/proprietary/etc/cne/wqeclient/ROW/ROW_profile2.xml:system/etc/cne/wqeclient/ROW/ROW_profile2.xml \
     vendor/motorola/potter/proprietary/etc/cne/wqeclient/ROW/ROW_profile3.xml:system/etc/cne/wqeclient/ROW/ROW_profile3.xml \
     vendor/motorola/potter/proprietary/etc/cne/wqeclient/ROW/ROW_profile5.xml:system/etc/cne/wqeclient/ROW/ROW_profile5.xml \
+    vendor/motorola/potter/proprietary/etc/cne/wqeclient/VZW/VZW_profile1.xml:system/etc/cne/wqeclient/VZW/VZW_profile1.xml \
+    vendor/motorola/potter/proprietary/etc/cne/wqeclient/VZW/VZW_profile2.xml:system/etc/cne/wqeclient/VZW/VZW_profile2.xml \
+    vendor/motorola/potter/proprietary/etc/cne/wqeclient/VZW/VZW_profile3.xml:system/etc/cne/wqeclient/VZW/VZW_profile3.xml \
+    vendor/motorola/potter/proprietary/etc/cne/wqeclient/VZW/VZW_profile4.xml:system/etc/cne/wqeclient/VZW/VZW_profile4.xml \
+    vendor/motorola/potter/proprietary/etc/cne/wqeclient/VZW/VZW_profile5.xml:system/etc/cne/wqeclient/VZW/VZW_profile5.xml \
+    vendor/motorola/potter/proprietary/etc/cne/wqeclient/VZW/VZW_profile6.xml:system/etc/cne/wqeclient/VZW/VZW_profile6.xml \
     vendor/motorola/potter/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/motorola/potter/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/motorola/potter/proprietary/etc/firmware/a530_gpmu.fw2:system/etc/firmware/a530_gpmu.fw2 \
@@ -73,14 +85,29 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/etc/firmware/cpp_firmware_v1_5_2.fw:system/etc/firmware/cpp_firmware_v1_5_2.fw \
     vendor/motorola/potter/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
     vendor/motorola/potter/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
-    vendor/motorola/potter/proprietary/etc/firmware/marley-dsp1-ultrasound.wmfw:system/etc/firmware/marley-dsp1-ultrasound.wmfw \
-    vendor/motorola/potter/proprietary/etc/firmware/marley-dsp2-aov-frontend.wmfw:system/etc/firmware/marley-dsp2-aov-frontend.wmfw \
-    vendor/motorola/potter/proprietary/etc/firmware/marley-dsp3-aov-control.wmfw:system/etc/firmware/marley-dsp3-aov-control.wmfw \
+    vendor/motorola/potter/proprietary/etc/firmware/cpp_firmware_v1_12_0.fw:system/etc/firmware/cpp_firmware_v1_12_0.fw \
+    vendor/motorola/potter/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
+    vendor/motorola/potter/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+    vendor/motorola/potter/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
+    vendor/motorola/potter/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
+    vendor/motorola/potter/proprietary/etc/firmware/nvm_tlv_1.3.bin:system/etc/firmware/nvm_tlv_1.3.bin \
+    vendor/motorola/potter/proprietary/etc/firmware/nvm_tlv_2.1.bin:system/etc/firmware/nvm_tlv_2.1.bin \
+    vendor/motorola/potter/proprietary/etc/firmware/nvm_tlv_3.0.bin:system/etc/firmware/nvm_tlv_3.0.bin \
+    vendor/motorola/potter/proprietary/etc/firmware/nvm_tlv_3.2.bin:system/etc/firmware/nvm_tlv_3.2.bin \
+    vendor/motorola/potter/proprietary/etc/firmware/rampatch_tlv.img:system/etc/firmware/rampatch_tlv.img \
+    vendor/motorola/potter/proprietary/etc/firmware/rampatch_tlv_1.3.tlv:system/etc/firmware/ \
+    vendor/motorola/potter/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
+    vendor/motorola/potter/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
+    vendor/motorola/potter/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
+    vendor/motorola/potter/proprietary/etc/firmware/sensorhub-blacklist.txt:system/etc/firmware/sensorhub-blacklist.txt \
+    vendor/motorola/potter/proprietary/etc/firmware/synaptics-boe-potter-16112102-25d862-potter.tdat:system/etc/firmware/synaptics-boe-potter-16112102-25d862-potter.tdat \
+    vendor/motorola/potter/proprietary/etc/firmware/synaptics-boe-s3203b-16112102-25d862-potter.tdat:system/etc/firmware/synaptics-boe-s3203b-16112102-25d862-potter.tdat \
+    vendor/motorola/potter/proprietary/etc/firmware/synaptics-s3508sga-16103104-255c40-albus.tdat:system/etc/firmware/synaptics-s3508sga-16103104-255c40-albus.tdat \
+    vendor/motorola/potter/proprietary/etc/firmware/synaptics-tianma-potter-16120802-237533-potter.tdat:system/etc/firmware/synaptics-tianma-potter-16120802-237533-potter.tdat \
+    vendor/motorola/potter/proprietary/etc/firmware/synaptics-tianma-s3203b-16120802-237533-potter.tdat:system/etc/firmware/synaptics-tianma-s3203b-16120802-237533-potter.tdat \
     vendor/motorola/potter/proprietary/etc/firmware/sensorhubfw.bin:system/etc/firmware/sensorhubfw.bin \
     vendor/motorola/potter/proprietary/etc/firmware/synaptics-s3508-16082601-255c40-addison.tdat:system/etc/firmware/synaptics-s3508-16082601-255c40-addison.tdat \
     vendor/motorola/potter/proprietary/etc/firmware/synaptics-s3508sga-16082601-255c40-addison.tdat:system/etc/firmware/synaptics-s3508sga-16082601-255c40-addison.tdat \
-    vendor/motorola/potter/proprietary/etc/flp.conf:system/etc/flp.conf \
-    vendor/motorola/potter/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/motorola/potter/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/motorola/potter/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/motorola/potter/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
@@ -88,25 +115,22 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/motorola/potter/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/motorola/potter/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
+    vendor/motorola/potter/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/motorola/potter/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/motorola/potter/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/motorola/potter/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Argentina.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Argentina.bin \
     vendor/motorola/potter/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Brazil.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Brazil.bin \
     vendor/motorola/potter/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_India.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_India.bin \
     vendor/motorola/potter/proprietary/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat:system/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat \
-    vendor/motorola/potter/proprietary/lib/hw/camera.vendor.msm8953.so:system/lib/hw/camera.vendor.msm8953.so \
-    vendor/motorola/potter/proprietary/lib/hw/camera.rc.so:system/lib/hw/camera.rc.so \
+    vendor/motorola/potter/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
     vendor/motorola/potter/proprietary/lib/hw/fingerprint.msm8953.so:system/lib/hw/fingerprint.msm8953.so \
     vendor/motorola/potter/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/motorola/potter/proprietary/lib/hw/sensorhub.msm8953.so:system/lib/hw/sensorhub.msm8953.so \
-    vendor/motorola/potter/proprietary/lib/hw/sensors.potter.so:system/lib/hw/sensors.potter.so \
-    vendor/motorola/potter/proprietary/lib/hw/sensors.iio.so:system/lib/hw/sensors.iio.so \
     vendor/motorola/potter/proprietary/lib/hw/sensors.msm8953.so:system/lib/hw/sensors.msm8953.so \
     vendor/motorola/potter/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/motorola/potter/proprietary/lib/lib_motsensorlistener.so:system/lib/lib_motsensorlistener.so \
     vendor/motorola/potter/proprietary/lib/lib_mottof.so:system/lib/lib_mottof.so \
     vendor/motorola/potter/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
-    vendor/motorola/potter/proprietary/lib/libadspd.so:system/lib/libadspd.so \
     vendor/motorola/potter/proprietary/lib/libadvalgcore.so:system/lib/libadvalgcore.so \
     vendor/motorola/potter/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
     vendor/motorola/potter/proprietary/lib/libcamerabgprocservice.so:system/lib/libcamerabgprocservice.so \
@@ -114,7 +138,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/lib/libfamily_photo.so:system/lib/libfamily_photo.so \
     vendor/motorola/potter/proprietary/lib/libgnsspps.so:system/lib/libgnsspps.so \
     vendor/motorola/potter/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/motorola/potter/proprietary/lib/libiio.so:system/lib/libiio.so \
     vendor/motorola/potter/proprietary/lib/libjscore.so:system/lib/libjscore.so \
     vendor/motorola/potter/proprietary/lib/libjustshoot.so:system/lib/libjustshoot.so \
     vendor/motorola/potter/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
@@ -128,7 +151,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/motorola/potter/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/motorola/potter/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/motorola/potter/proprietary/lib/libmodmanager.so:system/lib/libmodmanager.so \
     vendor/motorola/potter/proprietary/lib/libmorpho_image_stabilizer4.so:system/lib/libmorpho_image_stabilizer4.so \
     vendor/motorola/potter/proprietary/lib/libmot-qc-fd-offline.so:system/lib/libmot-qc-fd-offline.so \
     vendor/motorola/potter/proprietary/lib/libmot_afd.so:system/lib/libmot_afd.so \
@@ -139,8 +161,15 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
     vendor/motorola/potter/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/motorola/potter/proprietary/lib/libsensorhub.so:system/lib/libsensorhub.so \
+    vendor/motorola/potter/proprietary/lib/lib_mot_app6_metadata.so:system/lib/lib_mot_app6_metadata.so \
+    vendor/motorola/potter/proprietary/lib/libmotaudioutils.so:system/lib/libmotaudioutils.so \
+    vendor/motorola/potter/proprietary/lib/libmotefem_svc.so:system/lib/libmotefem_svc \
+    vendor/motorola/potter/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
+    vendor/motorola/potter/proprietary/vendor/bin/esepmdaemon:system/vendor/bin/esepmdaemon \
     vendor/motorola/potter/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/motorola/potter/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
+    vendor/motorola/potter/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
+    vendor/motorola/potter/proprietary/vendor/bin/qseeproxysampledaemon:system/vendor/bin/qseeproxysampledaemon \
     vendor/motorola/potter/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/motorola/potter/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/motorola/potter/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
@@ -196,7 +225,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/motorola/potter/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
     vendor/motorola/potter/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
-    vendor/motorola/potter/proprietary/vendor/lib/libactuator_mot_lc898212xd.so:system/vendor/lib/libactuator_mot_lc898212xd.so \
     vendor/motorola/potter/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/motorola/potter/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/motorola/potter/proprietary/vendor/lib/libadsp_default_listener.so:system/vendor/lib/libadsp_default_listener.so \
@@ -344,12 +372,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib/libmmcamera_isp_wb40.so:system/vendor/lib/libmmcamera_isp_wb40.so \
     vendor/motorola/potter/proprietary/vendor/lib/libmmcamera_llvd.so:system/vendor/lib/libmmcamera_llvd.so \
     vendor/motorola/potter/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:system/vendor/lib/libmmcamera_optizoom_lib.so \
-    vendor/motorola/potter/proprietary/vendor/lib/libmmcamera_ov16860.so:system/vendor/lib/libmmcamera_ov16860.so \
-    vendor/motorola/potter/proprietary/vendor/lib/libmmcamera_ov16860_eeprom.so:system/vendor/lib/libmmcamera_ov16860_eeprom.so \
-    vendor/motorola/potter/proprietary/vendor/lib/libmmcamera_ov16860_pdaf.so:system/vendor/lib/libmmcamera_ov16860_pdaf.so \
     vendor/motorola/potter/proprietary/vendor/lib/libmmcamera_ov5693.so:system/vendor/lib/libmmcamera_ov5693.so \
     vendor/motorola/potter/proprietary/vendor/lib/libmmcamera_ov5693_eeprom.so:system/vendor/lib/libmmcamera_ov5693_eeprom.so \
-    vendor/motorola/potter/proprietary/vendor/lib/libmmcamera_ovpdaf.so:system/vendor/lib/libmmcamera_ovpdaf.so \
     vendor/motorola/potter/proprietary/vendor/lib/libmmcamera_paaf_lib.so:system/vendor/lib/libmmcamera_paaf_lib.so \
     vendor/motorola/potter/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
     vendor/motorola/potter/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
@@ -466,7 +490,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so:system/vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so \
     vendor/motorola/potter/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/vendor/lib/rfsa/adsp/libscveT2T_skel.so \
     vendor/motorola/potter/proprietary/vendor/lib/rfsa/adsp/libscveTextReco_skel.so:system/vendor/lib/rfsa/adsp/libscveTextReco_skel.so \
-    vendor/motorola/potter/proprietary/vendor/qcril.db:system/vendor/qcril.db
+    vendor/motorola/potter/proprietary/vendor/qcril.db:system/vendor/qcril.db \
+    vendor/motorola/potter/proprietary/vendor/lib/libqmi_csvt_srvc.so:system/vendor/lib/libqmi_csvt_srvc.so
 
 PRODUCT_PACKAGES += \
     libril \
@@ -480,4 +505,8 @@ PRODUCT_PACKAGES += \
     com.qti.snapdragon.sdk.display \
     embmslibrary \
     imscmlibrary \
-    qcrilhook
+    qcrilhook \
+    com.qualcomm.location \
+    QtiTetherService \
+    izat.xt.srv \
+    qti-telephony-common
