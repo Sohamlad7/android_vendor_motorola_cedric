@@ -39,6 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/bin/radish:system/bin/radish \
     vendor/motorola/potter/proprietary/bin/rild:system/bin/rild \
     vendor/motorola/potter/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/motorola/potter/proprietary/bin/ssr_setup:system/bin/ssr_setup \
     vendor/motorola/potter/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/motorola/potter/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/motorola/potter/proprietary/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
@@ -122,7 +123,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Brazil.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Brazil.bin \
     vendor/motorola/potter/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_India.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_India.bin \
     vendor/motorola/potter/proprietary/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat:system/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat \
-    vendor/motorola/potter/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
+    vendor/motorola/potter/proprietary/lib/hw/camera.vendor.msm8953.so:system/lib/hw/camera.vendor.msm8953.so \
     vendor/motorola/potter/proprietary/lib/hw/fingerprint.msm8953.so:system/lib/hw/fingerprint.msm8953.so \
     vendor/motorola/potter/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/motorola/potter/proprietary/lib/hw/sensorhub.msm8953.so:system/lib/hw/sensorhub.msm8953.so \
@@ -452,11 +453,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib/libscveTextReco.so:system/vendor/lib/libscveTextReco.so \
     vendor/motorola/potter/proprietary/vendor/lib/libscveTextRecoPostProcessing.so:system/vendor/lib/libscveTextRecoPostProcessing.so \
     vendor/motorola/potter/proprietary/vendor/lib/libscveTextReco_stub.so:system/vendor/lib/libscveTextReco_stub.so \
-    vendor/motorola/potter/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
-    vendor/motorola/potter/proprietary/vendor/lib/libsdm-color.so:system/vendor/lib/libsdm-color.so \
-    vendor/motorola/potter/proprietary/vendor/lib/libsdm-diag.so:system/vendor/lib/libsdm-diag.so \
-    vendor/motorola/potter/proprietary/vendor/lib/libsdm-disp-apis.so:system/vendor/lib/libsdm-disp-apis.so \
-    vendor/motorola/potter/proprietary/vendor/lib/libsdmextension.so:system/vendor/lib/libsdmextension.so \
     vendor/motorola/potter/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
     vendor/motorola/potter/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/motorola/potter/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
@@ -491,7 +487,324 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/vendor/lib/rfsa/adsp/libscveT2T_skel.so \
     vendor/motorola/potter/proprietary/vendor/lib/rfsa/adsp/libscveTextReco_skel.so:system/vendor/lib/rfsa/adsp/libscveTextReco_skel.so \
     vendor/motorola/potter/proprietary/vendor/qcril.db:system/vendor/qcril.db \
-    vendor/motorola/potter/proprietary/vendor/lib/libqmi_csvt_srvc.so:system/vendor/lib/libqmi_csvt_srvc.so
+    vendor/motorola/potter/proprietary/vendor/lib/libqmi_csvt_srvc.so:system/vendor/lib/libqmi_csvt_srvc.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
+    vendor/motorola/potter/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
+    vendor/motorola/potter/proprietary/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libloc_externalDr.so:system/vendor/lib/libloc_externalDr.so \
+    vendor/motorola/potter/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
+    vendor/motorola/potter/proprietary/lib/libYuvSkia.so:system/lib/libYuvSkia.so \
+    vendor/motorola/potter/proprietary/lib/libzxingcpp.so:system/lib/libzxingcpp.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libmmcamera_mot_imx362.so:system/vendor/lib/libmmcamera_mot_imx362.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libmmcamera_mot_ov5695.so:system/vendor/lib/libmmcamera_mot_ov5695.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libqmi_csvt_srvc.so:system/vendor/lib/libqmi_csvt_srvc.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libmmcamera_mot_imx214.so:system/vendor/lib/libmmcamera_mot_imx214.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libmmcamera_mot_imx258.so:system/vendor/lib/libmmcamera_mot_imx258.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libmmcamera_mot_imx258_bear.so:system/vendor/lib/libmmcamera_mot_imx258_bear.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libmmcamera_mot_imx258_mono.so:system/vendor/lib/libmmcamera_mot_imx258_mono.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libmmcamera_mot_imx362.so:system/vendor/lib/libmmcamera_mot_imx362.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libmmcamera_mot_imx362_pdaf.so:system/vendor/lib/libmmcamera_mot_imx362_pdaf.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libmmcamera_mot_ov5695.so:system/vendor/lib/libmmcamera_mot_ov5695.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libmmcamera_ov5695_eeprom.so:system/vendor/lib/libmmcamera_ov5695_eeprom.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libmmcamera_s5k3p3.so:system/vendor/lib/libmmcamera_s5k3p3.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libmmcamera_s5k3p3_eeprom.so:system/vendor/lib/libmmcamera_s5k3p3_eeprom.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libmmcamera_s5k4h8.so:system/vendor/lib/libmmcamera_s5k4h8.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libmmcamera_s5k4h8_eeprom.so:system/vendor/lib/libmmcamera_s5k4h8_eeprom.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libmmcamera_sony_rumba_eeprom.so:system/vendor/lib/libmmcamera_sony_rumba_eeprom.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libmmcamera_imx219.so:system/vendor/lib/libmmcamera_imx219.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libmmcamera_imx338.so:system/vendor/lib/libmmcamera_imx338.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libmmcamera_imx362_eeprom.so:system/vendor/lib/libmmcamera_imx362_eeprom.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libactuator_lc898217xc.so:system/vendor/lib/libactuator_lc898217xc.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libactuator_dw9718s.so:system/vendor/lib/libactuator_dw9718s.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libactuator_dw9763.so:system/vendor/lib/libactuator_dw9763.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libactuator_dw9767.so:system/vendor/lib/libactuator_dw9767.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libactuator_lc898217xc.so:system/vendor/lib/libactuator_lc898217xc.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libactuator_mot_ak7371.so:system/vendor/lib/libactuator_mot_ak7371.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libactuator_pseudo.so:system/vendor/lib/libactuator_pseudo.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_ar1335_common.so:system/vendor/lib/libchromatix_ar1335_common.so \
+    vendor/motorola/potter/proprietary/lib/libmotaudioutils.so:system/lib/libmotaudioutils.so \
+    vendor/motorola/potter/proprietary/lib/libmotefem_svc.so:system/lib/libmotefem_svc.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libasn1cper.so:system/vendor/lib/libasn1cper.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libasn1crt.so:system/vendor/lib/libasn1crt.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libasn1crtx.so:system/vendor/lib/libasn1crtx.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libaudioparsers.so:system/vendor/lib/libaudioparsers.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libavenhancements.so:system/vendor/lib/libavenhancements.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libChamomilePA.so:system/vendor/lib/libChamomilePA.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_ar1335_cpp_hfr_120.so:system/vendor/lib/libchromatix_ar1335_cpp_hfr_120.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_ar1335_cpp_liveshot.so:system/vendor/lib/libchromatix_ar1335_cpp_liveshot.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_ar1335_cpp_preview.so:system/vendor/lib/libchromatix_ar1335_cpp_preview.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_ar1335_cpp_snapshot.so:system/vendor/lib/libchromatix_ar1335_cpp_snapshot.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_ar1335_cpp_video.so:system/vendor/lib/libchromatix_ar1335_cpp_video.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_ar1335_default_video.so:system/vendor/lib/libchromatix_ar1335_default_video.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_ar1335_hfr_120.so:system/vendor/lib/libchromatix_ar1335_hfr_120.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_ar1335_hfr_120_3a.so:system/vendor/lib/libchromatix_ar1335_hfr_120_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_ar1335_postproc.so:system/vendor/lib/libchromatix_ar1335_postproc.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_ar1335_snapshot.so:system/vendor/lib/libchromatix_ar1335_snapshot.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_ar1335_zsl_preview_3a.so:system/vendor/lib/libchromatix_ar1335_zsl_preview_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_ar1335_zsl_video_3a.so:system/vendor/lib/libchromatix_ar1335_zsl_video_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_imx219_common.so:system/vendor/lib/libchromatix_imx219_common.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_imx219_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx219_cpp_hfr_120.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_imx219_cpp_liveshot.so:system/vendor/lib/libchromatix_imx219_cpp_liveshot.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_imx219_cpp_preview.so:system/vendor/lib/libchromatix_imx219_cpp_preview.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_imx219_cpp_snapshot.so:system/vendor/lib/libchromatix_imx219_cpp_snapshot.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_imx219_cpp_video_full.so:system/vendor/lib/libchromatix_imx219_cpp_video_full.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_imx219_hfr_120.so:system/vendor/lib/libchromatix_imx219_hfr_120.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_imx219_hfr_120_3a.so:system/vendor/lib/libchromatix_imx219_hfr_120_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_imx219_postproc.so:system/vendor/lib/libchromatix_imx219_postproc.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_imx219_snapshot.so:system/vendor/lib/libchromatix_imx219_snapshot.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_imx219_video_full.so:system/vendor/lib/libchromatix_imx219_video_full.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_imx219_zsl_preview_3a.so:system/vendor/lib/libchromatix_imx219_zsl_preview_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_imx219_zsl_video_3a.so:system/vendor/lib/libchromatix_imx219_zsl_video_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_imx338_4k_ihdr_video_3a.so:system/vendor/lib/libchromatix_imx338_4k_ihdr_video_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_imx338_4k_video_3a.so:system/vendor/lib/libchromatix_imx338_4k_video_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_imx338_common.so:system/vendor/lib/libchromatix_imx338_common.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_imx338_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx338_cpp_hfr_120.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_imx338_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx338_cpp_hfr_60.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_imx338_cpp_ihdr_video.so:system/vendor/lib/libchromatix_imx338_cpp_ihdr_video.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_imx338_cpp_ihdr_video_4k.so:system/vendor/lib/libchromatix_imx338_cpp_ihdr_video_4k.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_imx338_cpp_liveshot.so:system/vendor/lib/libchromatix_imx338_cpp_liveshot.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_imx338_cpp_liveshot_4k.so:system/vendor/lib/libchromatix_imx338_cpp_liveshot_4k.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_imx338_cpp_liveshot_4k_ihdr.so:system/vendor/lib/libchromatix_imx338_cpp_liveshot_4k_ihdr.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_imx338_cpp_liveshot_ihdr.so:system/vendor/lib/libchromatix_imx338_cpp_liveshot_ihdr.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_imx338_cpp_qtr_res_snapshot.so:system/vendor/lib/libchromatix_imx338_cpp_qtr_res_snapshot.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_imx338_cpp_snapshot.so:system/vendor/lib/libchromatix_imx338_cpp_snapshot.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_imx338_cpp_video.so:system/vendor/lib/libchromatix_imx338_cpp_video.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_imx338_cpp_video_4k.so:system/vendor/lib/libchromatix_imx338_cpp_video_4k.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_imx338_default_ihdr_video.so:system/vendor/lib/libchromatix_imx338_default_ihdr_video.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_imx338_default_video.so:system/vendor/lib/libchromatix_imx338_default_video.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_imx338_hfr_120.so:system/vendor/lib/libchromatix_imx338_hfr_120.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_imx338_hfr_120_3a.so:system/vendor/lib/libchromatix_imx338_hfr_120_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_imx338_hfr_60.so:system/vendor/lib/libchromatix_imx338_hfr_60.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_imx338_hfr_60_3a.so:system/vendor/lib/libchromatix_imx338_hfr_60_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_imx338_ihdr_video_3a.so:system/vendor/lib/libchromatix_imx338_ihdr_video_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_imx338_ihdr_video_4k.so:system/vendor/lib/libchromatix_imx338_ihdr_video_4k.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_imx338_postproc.so:system/vendor/lib/libchromatix_imx338_postproc.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_imx338_qtr_res_preview_3a.so:system/vendor/lib/libchromatix_imx338_qtr_res_preview_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_imx338_qtr_res_snapshot.so:system/vendor/lib/libchromatix_imx338_qtr_res_snapshot.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_imx338_snapshot.so:system/vendor/lib/libchromatix_imx338_snapshot.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_imx338_video_4k.so:system/vendor/lib/libchromatix_imx338_video_4k.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_imx338_zsl_preview_3a.so:system/vendor/lib/libchromatix_imx338_zsl_preview_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_imx338_zsl_video_3a.so:system/vendor/lib/libchromatix_imx338_zsl_video_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx214_4k_ihdr_video_3A.so:system/vendor/lib/libchromatix_mot_imx214_4k_ihdr_video_3A.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx214_4k_video_3A.so:system/vendor/lib/libchromatix_mot_imx214_4k_video_3A.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx214_common.so:system/vendor/lib/libchromatix_mot_imx214_common.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_hfr_120.so:system/vendor/lib/libchromatix_mot_imx214_cpp_hfr_120.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_hfr_60.so:system/vendor/lib/libchromatix_mot_imx214_cpp_hfr_60.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_liveshot.so:system/vendor/lib/libchromatix_mot_imx214_cpp_liveshot.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_liveshot_4k.so:system/vendor/lib/libchromatix_mot_imx214_cpp_liveshot_4k.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_liveshot_4k_ihdr.so:system/vendor/lib/libchromatix_mot_imx214_cpp_liveshot_4k_ihdr.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_liveshot_ihdr.so:system/vendor/lib/libchromatix_mot_imx214_cpp_liveshot_ihdr.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_snapshot.so:system/vendor/lib/libchromatix_mot_imx214_cpp_snapshot.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_video.so:system/vendor/lib/libchromatix_mot_imx214_cpp_video.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_video_4k.so:system/vendor/lib/libchromatix_mot_imx214_cpp_video_4k.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_video_4k_ihdr.so:system/vendor/lib/libchromatix_mot_imx214_cpp_video_4k_ihdr.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_video_ihdr.so:system/vendor/lib/libchromatix_mot_imx214_cpp_video_ihdr.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx214_default_4k_video.so:system/vendor/lib/libchromatix_mot_imx214_default_4k_video.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx214_default_ihdr_video.so:system/vendor/lib/libchromatix_mot_imx214_default_ihdr_video.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx214_default_ihdr_video_4k.so:system/vendor/lib/libchromatix_mot_imx214_default_ihdr_video_4k.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx214_default_video.so:system/vendor/lib/libchromatix_mot_imx214_default_video.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx214_hfr_120.so:system/vendor/lib/libchromatix_mot_imx214_hfr_120.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx214_hfr_120_3A.so:system/vendor/lib/libchromatix_mot_imx214_hfr_120_3A.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx214_hfr_60.so:system/vendor/lib/libchromatix_mot_imx214_hfr_60.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx214_hfr_60_3A.so:system/vendor/lib/libchromatix_mot_imx214_hfr_60_3A.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx214_ihdr_video_3A.so:system/vendor/lib/libchromatix_mot_imx214_ihdr_video_3A.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx214_postproc.so:system/vendor/lib/libchromatix_mot_imx214_postproc.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx214_snapshot.so:system/vendor/lib/libchromatix_mot_imx214_snapshot.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx214_zsl_preview_3A.so:system/vendor/lib/libchromatix_mot_imx214_zsl_preview_3A.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx214_zsl_video_3A.so:system/vendor/lib/libchromatix_mot_imx214_zsl_video_3A.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx258_common.so:system/vendor/lib/libchromatix_mot_imx258_common.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx258_cpp_hfr_120.so:system/vendor/lib/libchromatix_mot_imx258_cpp_hfr_120.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx258_cpp_liveshot.so:system/vendor/lib/libchromatix_mot_imx258_cpp_liveshot.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx258_cpp_preview.so:system/vendor/lib/libchromatix_mot_imx258_cpp_preview.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx258_cpp_snapshot.so:system/vendor/lib/libchromatix_mot_imx258_cpp_snapshot.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx258_cpp_video.so:system/vendor/lib/libchromatix_mot_imx258_cpp_video.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx258_default_video.so:system/vendor/lib/libchromatix_mot_imx258_default_video.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx258_hfr_120.so:system/vendor/lib/libchromatix_mot_imx258_hfr_120.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx258_hfr_120_3a.so:system/vendor/lib/libchromatix_mot_imx258_hfr_120_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx258_ihdr_video.so:system/vendor/lib/libchromatix_mot_imx258_ihdr_video.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx258_ihdr_video_3a.so:system/vendor/lib/libchromatix_mot_imx258_ihdr_video_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx258_postproc.so:system/vendor/lib/libchromatix_mot_imx258_postproc.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx258_snapshot.so:system/vendor/lib/libchromatix_mot_imx258_snapshot.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx258_zsl_preview_3a.so:system/vendor/lib/libchromatix_mot_imx258_zsl_preview_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx258_zsl_video_3a.so:system/vendor/lib/libchromatix_mot_imx258_zsl_video_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx362_1080p_preview_3a.so:system/vendor/lib/libchromatix_mot_imx362_1080p_preview_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx362_1080p_video_3a.so:system/vendor/lib/libchromatix_mot_imx362_1080p_video_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx362_4k_ihdr_video_3a.so:system/vendor/lib/libchromatix_mot_imx362_4k_ihdr_video_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx362_4k_preview_3a.so:system/vendor/lib/libchromatix_mot_imx362_4k_preview_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx362_4k_video_3a.so:system/vendor/lib/libchromatix_mot_imx362_4k_video_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx362_common.so:system/vendor/lib/libchromatix_mot_imx362_common.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_hfr_120.so:system/vendor/lib/libchromatix_mot_imx362_cpp_hfr_120.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_hfr_240.so:system/vendor/lib/libchromatix_mot_imx362_cpp_hfr_240.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_hfr_60.so:system/vendor/lib/libchromatix_mot_imx362_cpp_hfr_60.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_liveshot.so:system/vendor/lib/libchromatix_mot_imx362_cpp_liveshot.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_preview.so:system/vendor/lib/libchromatix_mot_imx362_cpp_preview.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_snapshot.so:system/vendor/lib/libchromatix_mot_imx362_cpp_snapshot.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_video.so:system/vendor/lib/libchromatix_mot_imx362_cpp_video.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_video_4k.so:system/vendor/lib/libchromatix_mot_imx362_cpp_video_4k.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx362_default_preview_3a.so:system/vendor/lib/libchromatix_mot_imx362_default_preview_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx362_default_video.so:system/vendor/lib/libchromatix_mot_imx362_default_video.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx362_default_video_3a.so:system/vendor/lib/libchromatix_mot_imx362_default_video_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx362_fullsize_preview_3a.so:system/vendor/lib/libchromatix_mot_imx362_fullsize_preview_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx362_fullsize_video_3a.so:system/vendor/lib/libchromatix_mot_imx362_fullsize_video_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx362_hfr_120.so:system/vendor/lib/libchromatix_mot_imx362_hfr_120.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx362_hfr_120_3a.so:system/vendor/lib/libchromatix_mot_imx362_hfr_120_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx362_hfr_240.so:system/vendor/lib/libchromatix_mot_imx362_hfr_240.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx362_hfr_240_3a.so:system/vendor/lib/libchromatix_mot_imx362_hfr_240_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx362_hfr_60.so:system/vendor/lib/libchromatix_mot_imx362_hfr_60.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx362_hfr_60_3a.so:system/vendor/lib/libchromatix_mot_imx362_hfr_60_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx362_ihdr_video.so:system/vendor/lib/libchromatix_mot_imx362_ihdr_video.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx362_ihdr_video_3a.so:system/vendor/lib/libchromatix_mot_imx362_ihdr_video_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx362_ihdr_video_4k.so:system/vendor/lib/libchromatix_mot_imx362_ihdr_video_4k.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx362_postproc.so:system/vendor/lib/libchromatix_mot_imx362_postproc.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx362_preview.so:system/vendor/lib/libchromatix_mot_imx362_preview.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx362_snapshot.so:system/vendor/lib/libchromatix_mot_imx362_snapshot.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_imx362_video_4k.so:system/vendor/lib/libchromatix_mot_imx362_video_4k.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_ov5695_common.so:system/vendor/lib/libchromatix_mot_ov5695_common.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_ov5695_cpp_hfr_120.so:system/vendor/lib/libchromatix_mot_ov5695_cpp_hfr_120.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_ov5695_cpp_liveshot.so:system/vendor/lib/libchromatix_mot_ov5695_cpp_liveshot.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_ov5695_cpp_snapshot.so:system/vendor/lib/libchromatix_mot_ov5695_cpp_snapshot.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_ov5695_cpp_video.so:system/vendor/lib/libchromatix_mot_ov5695_cpp_video.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_ov5695_default_video.so:system/vendor/lib/libchromatix_mot_ov5695_default_video.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_ov5695_default_video_3a.so:system/vendor/lib/libchromatix_mot_ov5695_default_video_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_ov5695_hfr_120.so:system/vendor/lib/libchromatix_mot_ov5695_hfr_120.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_ov5695_hfr_120_3a.so:system/vendor/lib/libchromatix_mot_ov5695_hfr_120_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_ov5695_postproc.so:system/vendor/lib/libchromatix_mot_ov5695_postproc.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_ov5695_snapshot.so:system/vendor/lib/libchromatix_mot_ov5695_snapshot.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_ov5695_snapshot_3a.so:system/vendor/lib/libchromatix_mot_ov5695_snapshot_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_s5k3p3_common.so:system/vendor/lib/libchromatix_s5k3p3_common.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k3p3_cpp_hfr_120.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k3p3_cpp_liveshot.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_preview.so:system/vendor/lib/libchromatix_s5k3p3_cpp_preview.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k3p3_cpp_snapshot.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_video.so:system/vendor/lib/libchromatix_s5k3p3_cpp_video.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_s5k3p3_hfr_120.so:system/vendor/lib/libchromatix_s5k3p3_hfr_120.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_s5k3p3_hfr_120_3a.so:system/vendor/lib/libchromatix_s5k3p3_hfr_120_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_s5k3p3_ihdr_video.so:system/vendor/lib/libchromatix_s5k3p3_ihdr_video.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_s5k3p3_ihdr_video_3a.so:system/vendor/lib/libchromatix_s5k3p3_ihdr_video_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_s5k3p3_postproc.so:system/vendor/lib/libchromatix_s5k3p3_postproc.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_s5k3p3_snapshot.so:system/vendor/lib/libchromatix_s5k3p3_snapshot.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_s5k3p3_zsl_preview_3a.so:system/vendor/lib/libchromatix_s5k3p3_zsl_preview_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_s5k3p3_zsl_video_3a.so:system/vendor/lib/libchromatix_s5k3p3_zsl_video_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_s5k4h8_common.so:system/vendor/lib/libchromatix_s5k4h8_common.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k4h8_cpp_hfr_120.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k4h8_cpp_liveshot.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_preview.so:system/vendor/lib/libchromatix_s5k4h8_cpp_preview.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k4h8_cpp_snapshot.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_video_full.so:system/vendor/lib/libchromatix_s5k4h8_cpp_video_full.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_120.so:system/vendor/lib/libchromatix_s5k4h8_hfr_120.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_120_3a.so:system/vendor/lib/libchromatix_s5k4h8_hfr_120_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_s5k4h8_postproc.so:system/vendor/lib/libchromatix_s5k4h8_postproc.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_s5k4h8_snapshot.so:system/vendor/lib/libchromatix_s5k4h8_snapshot.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_s5k4h8_video_full.so:system/vendor/lib/libchromatix_s5k4h8_video_full.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_s5k4h8_zsl_preview_3a.so:system/vendor/lib/libchromatix_s5k4h8_zsl_preview_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_s5k4h8_zsl_video_3a.so:system/vendor/lib/libchromatix_s5k4h8_zsl_video_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libCommandSvc.so:system/vendor/lib/libCommandSvc.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libDRPlugin.so:system/vendor/lib/libDRPlugin.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libdrplugin_client.so:system/vendor/lib/libdrplugin_client.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libesepm.so:system/vendor/lib/libesepm.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libevent_observer.so:system/vendor/lib/libevent_observer.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libFidoCrypto.so:system/vendor/lib/libFidoCrypto.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libFidoCryptoJNI.so:system/vendor/lib/libFidoCryptoJNI.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libFIDOKeyProvisioning.so:system/vendor/lib/libFIDOKeyProvisioning.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libFidoSuiJNI.so:system/vendor/lib/libFidoSuiJNI.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libFileMux.so:system/vendor/lib/libFileMux.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libflash_aw3641.so:system/vendor/lib/libflash_aw3641.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libgdtap.so:system/vendor/lib/libgdtap.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libizat_client_api.so:system/vendor/lib/libizat_client_api.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libjni_dualcamera.so:system/vendor/lib/libjni_dualcamera.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libmdtpdemojni.so:system/vendor/lib/libmdtpdemojni.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libmdtp_crypto.so:system/vendor/lib/libmdtp_crypto.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libmmcamera2_mct_shimlayer.so:system/vendor/lib/libmmcamera2_mct_shimlayer.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libmmcamera_ar1335.so:system/vendor/lib/libmmcamera_ar1335.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libmmcamera_dw9767_eeprom.so:system/vendor/lib/libmmcamera_dw9767_eeprom.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libmmcamera_quadracfa.so:system/vendor/lib/libmmcamera_quadracfa.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libmmhttpstack.so:system/vendor/lib/libmmhttpstack.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libmmi.so:system/vendor/lib/libmmi.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libmmiipstreammmihttp.so:system/vendor/lib/libmmiipstreammmihttp.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libmmipstreamnetwork.so:system/vendor/lib/libmmipstreamnetwork.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libmmipstreamsourcehttp.so:system/vendor/lib/libmmipstreamsourcehttp.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libmmipstreamutils.so:system/vendor/lib/libmmipstreamutils.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libmmparser_lite.so:system/vendor/lib/libmmparser_lite.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libmmrtpdecoder.so:system/vendor/lib/libmmrtpdecoder.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libmmrtpencoder.so:system/vendor/lib/libmmrtpencoder.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libmodalityservice_jni.so:system/vendor/lib/libmodalityservice_jni.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libomx-dts.so:system/vendor/lib/libomx-dts.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libqti-at.so:system/vendor/lib/libqti-at.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libqti-gt.so:system/vendor/lib/libqti-gt.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libQtiTether.so:system/vendor/lib/libQtiTether.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libremosaic_daemon.so:system/vendor/lib/libremosaic_daemon.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libSampleAuthJNI.so:system/vendor/lib/libSampleAuthJNI.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libSampleExtAuthJNI.so:system/vendor/lib/libSampleExtAuthJNI.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libsdsprpc.so:system/vendor/lib/libsdsprpc.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libslimclient.so:system/vendor/lib/libslimclient.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libSonyDefocus.so:system/vendor/lib/libSonyDefocus.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libSonyDualPDLibrary.so:system/vendor/lib/libSonyDualPDLibrary.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libSonyDualPDParam.so:system/vendor/lib/libSonyDualPDParam.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libvqzip.so:system/vendor/lib/libvqzip.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libwbc_jni.so:system/vendor/lib/libwbc_jni.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libwfdavenhancements.so:system/vendor/lib/libwfdavenhancements.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libwfdcommonutils.so:system/vendor/lib/libwfdcommonutils.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libwfdhdcpcp.so:system/vendor/lib/libwfdhdcpcp.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libwfdmmsink.so:system/vendor/lib/libwfdmmsink.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libwfduibcsink.so:system/vendor/lib/libwfduibcsink.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libwfduibcsinkinterface.so:system/vendor/lib/libwfduibcsinkinterface.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libzaf_algs.so:system/vendor/lib/libzaf_algs.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libzaf_core.so:system/vendor/lib/libzaf_core.so \
+    vendor/motorola/potter/proprietary/vendor/lib/lib_drplugin_server.so:system/vendor/lib/lib_drplugin_server.so \
+    vendor/motorola/potter/proprietary/vendor/lib/lib_remote_simlock.so:system/vendor/lib/lib_remote_simlock.so \
+    vendor/motorola/potter/proprietary/vendor/lib/mmi_audio.so:system/vendor/lib/mmi_audio.so \
+    vendor/motorola/potter/proprietary/vendor/lib/mmi_battery.so:system/vendor/lib/mmi_battery.so \
+    vendor/motorola/potter/proprietary/vendor/lib/mmi_bluetooth.so:system/vendor/lib/mmi_bluetooth.so \
+    vendor/motorola/potter/proprietary/vendor/lib/mmi_camera.so:system/vendor/lib/mmi_camera.so \
+    vendor/motorola/potter/proprietary/vendor/lib/mmi_cpu.so:system/vendor/lib/mmi_cpu.so \
+    vendor/motorola/potter/proprietary/vendor/lib/mmi_flashlight.so:system/vendor/lib/mmi_flashlight.so \
+    vendor/motorola/potter/proprietary/vendor/lib/mmi_fm.so:system/vendor/lib/mmi_fm.so \
+    vendor/motorola/potter/proprietary/vendor/lib/mmi_gps.so:system/vendor/lib/mmi_gps.so \
+    vendor/motorola/potter/proprietary/vendor/lib/mmi_headset.so:system/vendor/lib/mmi_headset.so \
+    vendor/motorola/potter/proprietary/vendor/lib/mmi_key.so:system/vendor/lib/mmi_key.so \
+    vendor/motorola/potter/proprietary/vendor/lib/mmi_lcd.so:system/vendor/lib/mmi_lcd.so \
+    vendor/motorola/potter/proprietary/vendor/lib/mmi_light.so:system/vendor/lib/mmi_light.so \
+    vendor/motorola/potter/proprietary/vendor/lib/mmi_memory.so:system/vendor/lib/mmi_memory.so \
+    vendor/motorola/potter/proprietary/vendor/lib/mmi_nfc.so:system/vendor/lib/mmi_nfc.so \
+    vendor/motorola/potter/proprietary/vendor/lib/mmi_sensor.so:system/vendor/lib/mmi_sensor.so \
+    vendor/motorola/potter/proprietary/vendor/lib/mmi_sim.so:system/vendor/lib/mmi_sim.so \
+    vendor/motorola/potter/proprietary/vendor/lib/mmi_storage.so:system/vendor/lib/mmi_storage.so \
+    vendor/motorola/potter/proprietary/vendor/lib/mmi_sysinfo.so:system/vendor/lib/mmi_sysinfo.so \
+    vendor/motorola/potter/proprietary/vendor/lib/mmi_touch.so:system/vendor/lib/mmi_touch.so \
+    vendor/motorola/potter/proprietary/vendor/lib/mmi_vibrator.so:system/vendor/lib/mmi_vibrator.so \
+    vendor/motorola/potter/proprietary/vendor/lib/mmi_wifi.so:system/vendor/lib/mmi_wifi.so \
+    vendor/motorola/potter/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
+    vendor/motorola/potter/proprietary/vendor/lib/sensor_calibrate.so:system/vendor/lib/sensor_calibrate.so \
+    vendor/motorola/potter/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
+    vendor/motorola/potter/proprietary/etc/firmware/upd-00000126-00001001-fed70128-fffe0001-02.tftf:system/etc/firmware/upd-00000126-00001001-fed70128-fffe0001-02.tftf \
+    vendor/motorola/potter/proprietary/etc/cne/wqeclient/ROW/ROW_profile4.xml:system/etc/cne/wqeclient/ROW/ROW_profile4.xml \
+    vendor/motorola/potter/proprietary/bin/fmhal_service:system/bin/fmhal_service \
+    vendor/motorola/potter/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
 
 PRODUCT_PACKAGES += \
     libril \
@@ -500,13 +813,15 @@ PRODUCT_PACKAGES += \
     embms \
     CNEService \
     colorservice \
-    ims \
-    imssettings \
     com.qti.snapdragon.sdk.display \
     embmslibrary \
     imscmlibrary \
     qcrilhook \
     com.qualcomm.location \
-    QtiTetherService \
+    ims \
+    imssettings \
+    qcrilmsgtunnel \
     izat.xt.srv \
-    qti-telephony-common
+    qti-telephony-common \
+    libtime_genoff
+
