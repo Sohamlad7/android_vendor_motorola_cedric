@@ -42,6 +42,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/bin/ssr_setup:system/bin/ssr_setup \
     vendor/motorola/potter/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/motorola/potter/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/motorola/potter/proprietary/bin/loc_launcher:system/bin/loc_launcher \
+    vendor/motorola/potter/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
+    vendor/motorola/potter/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/motorola/potter/proprietary/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/motorola/potter/proprietary/etc/acdbdata/General_cal.acdb:system/etc/acdbdata/General_cal.acdb \
     vendor/motorola/potter/proprietary/etc/acdbdata/Global_cal.acdb:system/etc/acdbdata/Global_cal.acdb \
