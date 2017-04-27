@@ -17,6 +17,7 @@
 PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/bin/adspd:system/bin/adspd \
     vendor/motorola/potter/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+    vendor/motorola/potter/proprietary/bin/akmd09912:system/bin/akmd09912 \
     vendor/motorola/potter/proprietary/bin/batt_health:system/bin/batt_health \
     vendor/motorola/potter/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/motorola/potter/proprietary/bin/cnd:system/bin/cnd \
