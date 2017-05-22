@@ -1,0 +1,52 @@
+#!/system/bin/sh
+
+execute() {
+    if [ -n "$target" ]
+    then
+        echo ---------$1----------  >> $target
+        log -p d -t ipInfo "$1 >> $target"
+        $1 >> $target
+    else
+        echo ---------$1----------
+        log -p d -t ipInfo "$1"
+        $1
+    fi
+}
+
+ipInfo(){
+    [ -n "$target" ] && date > $target || date
+    execute "ps"
+    execute "getprop"
+    execute "ip xfrm state show"
+    execute "ip xfrm policy show"
+    execute "ip -4 addr show"
+    execute "ip -6 addr show"
+    execute "ip rule show"
+    execute "ip -6 rule show"
+    execute "cat /data/misc/net/rt_tables"
+    while read LINE
+    do
+        tableInfo=($LINE)
+        execute "ip -4 route show table ${tableInfo[1]}"
+        execute "ip -6 route show table ${tableInfo[1]}"
+    done < /data/misc/net/rt_tables
+    execute "ip -4 route show table 9"
+    execute "ip -6 route show table 9"
+    execute "ip -4 route show table 200"
+    execute "ip -6 route show table 200"
+    execute "ip -4 neigh show"
+    execute "ip -6 neigh show"
+    execute "timeout -s SIGABRT 5s iptables -L -nvx"
+    execute "timeout -s SIGABRT 5s ip6tables -L -nvx"
+    execute "timeout -s SIGABRT 5s iptables -t nat -L -nvx"
+    execute "timeout -s SIGABRT 5s iptables -t mangle -L -nvx"
+    execute "timeout -s SIGABRT 5s ip6tables -t mangle -L -nvx"
+    execute "timeout -s SIGABRT 5s iptables -t raw -L -nvx"
+    execute "timeout -s SIGABRT 5s ip6tables -t raw -L -nvx"
+    execute "cat /proc/net/xfrm_stat"
+    execute "cat /proc/net/xt_qtaguid/iface_stat_all"
+}
+
+target=$1
+
+ipInfo
