@@ -19,7 +19,7 @@ ifeq ($(TARGET_DEVICE),cedric)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libtime_genoff
 LOCAL_MODULE_OWNER := motorola
-LOCAL_SRC_FILES := proprietary/vendor/lib/libtime_genoff.so
+LOCAL_SRC_FILES := lib/libtime_genoff.so
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
