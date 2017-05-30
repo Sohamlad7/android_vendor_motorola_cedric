@@ -108,8 +108,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/etc/firmware/synaptics-boe-potter-16112102-25d862-potter.tdat:system/etc/firmware/synaptics-boe-potter-16112102-25d862-potter.tdat \
     vendor/motorola/potter/proprietary/etc/firmware/synaptics-boe-s3203b-16112102-25d862-potter.tdat:system/etc/firmware/synaptics-boe-s3203b-16112102-25d862-potter.tdat \
     vendor/motorola/potter/proprietary/etc/firmware/synaptics-s3508sga-16103104-255c40-albus.tdat:system/etc/firmware/synaptics-s3508sga-16103104-255c40-albus.tdat \
-    vendor/motorola/potter/proprietary/etc/firmware/synaptics-tianma-potter-16120802-237533-potter.tdat:system/etc/firmware/synaptics-tianma-potter-16120802-237533-potter.tdat \
-    vendor/motorola/potter/proprietary/etc/firmware/synaptics-tianma-s3203b-16120802-237533-potter.tdat:system/etc/firmware/synaptics-tianma-s3203b-16120802-237533-potter.tdat \
+    vendor/motorola/potter/proprietary/etc/firmware/synaptics-tianma-potter-17011001-237533-potter.tdat:system/etc/firmware/synaptics-tianma-potter-17011001-237533-potter.tdat \
+    vendor/motorola/potter/proprietary/etc/firmware/synaptics-tianma-s3203b-17011001-237533-potter.tdat:system/etc/firmware/synaptics-tianma-s3203b-17011001-237533-potter.tdat \
     vendor/motorola/potter/proprietary/etc/firmware/sensorhubfw.bin:system/etc/firmware/sensorhubfw.bin \
     vendor/motorola/potter/proprietary/etc/firmware/synaptics-s3508-16082601-255c40-addison.tdat:system/etc/firmware/synaptics-s3508-16082601-255c40-addison.tdat \
     vendor/motorola/potter/proprietary/etc/firmware/synaptics-s3508sga-16082601-255c40-addison.tdat:system/etc/firmware/synaptics-s3508sga-16082601-255c40-addison.tdat \
