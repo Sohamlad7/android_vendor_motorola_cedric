@@ -14,3 +14,7 @@
 
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/motorola/cedric/proprietary,system)
+
+PRODUCT_PACKAGES += \
+    libril \
+    libtime_genoff
