@@ -73,6 +73,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/etc/acdbdata/Hdmi_cal.acdb:system/etc/acdbdata/Hdmi_cal.acdb \
     vendor/motorola/cedric/proprietary/etc/acdbdata/Headset_cal.acdb:system/etc/acdbdata/Headset_cal.acdb \
     vendor/motorola/cedric/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
+    vendor/motorola/cedric/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
     vendor/motorola/cedric/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/motorola/cedric/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/motorola/cedric/proprietary/etc/cne/wqeclient/ATT/ATT_profile1.xml:system/etc/cne/wqeclient/ATT/ATT_profile1.xml \
@@ -160,7 +161,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/motorola/cedric/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/motorola/cedric/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
+    vendor/motorola/cedric/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/motorola/cedric/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
+    vendor/motorola/cedric/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
+    vendor/motorola/cedric/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/motorola/cedric/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
     vendor/motorola/cedric/proprietary/etc/permissions/ims.xml:system/etc/permissions/ims.xml \
     vendor/motorola/cedric/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
@@ -168,6 +172,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/etc/permissions/com.motorola.cameraone.xml:system/etc/permissions/com.motorola.cameraone.xml \
     vendor/motorola/cedric/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/motorola/cedric/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
+    vendor/motorola/cedric/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/motorola/cedric/proprietary/lib/hw/camera.vendor.msm8937.so:system/lib/hw/camera.vendor.msm8937.so \
     vendor/motorola/cedric/proprietary/lib/hw/fingerprint.msm8937.so:system/lib/hw/fingerprint.msm8937.so \
     vendor/motorola/cedric/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
@@ -871,16 +876,20 @@ PRODUCT_PACKAGES += \
     atfwd \
     TimeService \
     datastatusnotification \
+    com.qualcomm.location \
     embms \
     CNEService \
     colorservice \
     ims \
     imssettings \
     com.qti.snapdragon.sdk.display \
+    com.qualcomm.location.vzw_library \
     embmslibrary \
     imscmlibrary \
+    izat.xt.srv \
     qcrilhook \
     cneapiclient \
+    com.qti.location.sdk \
     com.qti.dpmframework \
     com.quicinc.cne \
     ConnectivityExt \
