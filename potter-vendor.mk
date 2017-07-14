@@ -135,7 +135,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/motorola/potter/proprietary/lib/hw/camera.vendor.msm8953.so:system/lib/hw/camera.vendor.msm8953.so \
     vendor/motorola/potter/proprietary/lib/hw/fingerprint.msm8953.so:system/lib/hw/fingerprint.msm8953.so \
-    vendor/motorola/potter/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/motorola/potter/proprietary/lib/hw/sensorhub.msm8953.so:system/lib/hw/sensorhub.msm8953.so \
     vendor/motorola/potter/proprietary/lib/hw/sensors.msm8953.so:system/lib/hw/sensors.msm8953.so \
     vendor/motorola/potter/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
@@ -147,16 +146,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/lib/libcamerabgprocservice.so:system/lib/libcamerabgprocservice.so \
     vendor/motorola/potter/proprietary/lib/libcom_fingerprints_service.so:system/lib/libcom_fingerprints_service.so \
     vendor/motorola/potter/proprietary/lib/libfamily_photo.so:system/lib/libfamily_photo.so \
-    vendor/motorola/potter/proprietary/lib/libgnsspps.so:system/lib/libgnsspps.so \
-    vendor/motorola/potter/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/motorola/potter/proprietary/lib/libjscore.so:system/lib/libjscore.so \
     vendor/motorola/potter/proprietary/lib/libjustshoot.so:system/lib/libjustshoot.so \
     vendor/motorola/potter/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/motorola/potter/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/motorola/potter/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/motorola/potter/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-    vendor/motorola/potter/proprietary/lib/libloc_pla.so:system/lib/libloc_pla.so \
-    vendor/motorola/potter/proprietary/lib/libloc_stub.so:system/lib/libloc_stub.so \
     vendor/motorola/potter/proprietary/lib/libmbs.so:system/lib/libmbs.so \
     vendor/motorola/potter/proprietary/lib/libmdmcutback.so:system/lib/libmdmcutback.so \
     vendor/motorola/potter/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
