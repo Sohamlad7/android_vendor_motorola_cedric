@@ -864,6 +864,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libril \
     libtime_genoff \
+    atfwd \
     TimeService \
     datastatusnotification \
     embms \
