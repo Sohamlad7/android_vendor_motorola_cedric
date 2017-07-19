@@ -156,6 +156,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_India.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_India.bin \
     vendor/motorola/cedric/proprietary/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat:system/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat \
     vendor/motorola/cedric/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
+    vendor/motorola/cedric/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
+    vendor/motorola/cedric/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
+    vendor/motorola/cedric/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
+    vendor/motorola/cedric/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/motorola/cedric/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/motorola/cedric/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
     vendor/motorola/cedric/proprietary/etc/permissions/ims.xml:system/etc/permissions/ims.xml \
@@ -875,4 +879,13 @@ PRODUCT_PACKAGES += \
     com.qti.snapdragon.sdk.display \
     embmslibrary \
     imscmlibrary \
-    qcrilhook
+    qcrilhook \
+    cneapiclient \
+    com.qti.dpmframework \
+    com.quicinc.cne \
+    ConnectivityExt \
+    dpmapi \
+    QPerformance \
+    qti-vzw-ims-internal \
+    rcsimssettings \
+    tcmclient
