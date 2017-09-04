@@ -38,7 +38,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/bin/qmi_motext_hook:system/bin/qmi_motext_hook \
     vendor/motorola/potter/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/motorola/potter/proprietary/bin/radish:system/bin/radish \
-    vendor/motorola/potter/proprietary/bin/rild:system/bin/rild \
     vendor/motorola/potter/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/motorola/potter/proprietary/bin/ssr_setup:system/bin/ssr_setup \
     vendor/motorola/potter/proprietary/bin/tftp_server:system/bin/tftp_server \
@@ -901,7 +900,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so
 
 PRODUCT_PACKAGES += \
-    libril \
     TimeService \
     datastatusnotification \
     embms \
