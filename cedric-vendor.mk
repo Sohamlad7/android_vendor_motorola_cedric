@@ -861,7 +861,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib/rfsa/adsp/libscveTextReco_skel.so:system/vendor/lib/rfsa/adsp/libscveTextReco_skel.so \
     vendor/motorola/cedric/proprietary/vendor/lib/sensor_calibrate.so:system/vendor/lib/sensor_calibrate.so \
     vendor/motorola/cedric/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
-    vendor/motorola/cedric/proprietary/vendor/qcril.db:system/vendor/qcril.db
+    vendor/motorola/cedric/proprietary/vendor/qcril.db:system/vendor/qcril.db \
+    vendor/motorola/cedric/proprietary/vendor/lib/libprotobuf-cpp-shit.so:system/vendor/lib/libprotobuf-cpp-shit.so
 
 PRODUCT_PACKAGES += \
     libril \
