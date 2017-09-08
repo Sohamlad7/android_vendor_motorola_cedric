@@ -22,7 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/bin/batt_health:system/bin/batt_health \
     vendor/motorola/cedric/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/motorola/cedric/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
-    vendor/motorola/cedric/proprietary/bin/cnd:system/bin/cnd \
     vendor/motorola/cedric/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/motorola/cedric/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/motorola/cedric/proprietary/bin/dbvc_atvc_property_set:system/bin/dbvc_atvc_property_set \
@@ -33,17 +32,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/motorola/cedric/proprietary/bin/hal_proxy_daemon:system/bin/hal_proxy_daemon \
     vendor/motorola/cedric/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/motorola/cedric/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
-    vendor/motorola/cedric/proprietary/bin/imscmservice:system/bin/imscmservice \
-    vendor/motorola/cedric/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
-    vendor/motorola/cedric/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/motorola/cedric/proprietary/bin/iop:system/bin/iop \
     vendor/motorola/cedric/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/motorola/cedric/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/motorola/cedric/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/motorola/cedric/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/motorola/cedric/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
-    vendor/motorola/cedric/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/motorola/cedric/proprietary/bin/motobox:system/bin/motobox \
     vendor/motorola/cedric/proprietary/bin/motosh:system/bin/motosh \
     vendor/motorola/cedric/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
