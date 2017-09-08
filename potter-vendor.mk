@@ -20,16 +20,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/bin/akmd09912:system/bin/akmd09912 \
     vendor/motorola/potter/proprietary/bin/batt_health:system/bin/batt_health \
     vendor/motorola/potter/proprietary/bin/btnvtool:system/bin/btnvtool \
-    vendor/motorola/potter/proprietary/bin/cnd:system/bin/cnd \
     vendor/motorola/potter/proprietary/bin/dbvc_atvc_property_set:system/bin/dbvc_atvc_property_set \
     vendor/motorola/potter/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/motorola/potter/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
-    vendor/motorola/potter/proprietary/bin/imscmservice:system/bin/imscmservice \
-    vendor/motorola/potter/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
-    vendor/motorola/potter/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/motorola/potter/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/motorola/potter/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/motorola/potter/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/motorola/potter/proprietary/bin/motosh:system/bin/motosh \
     vendor/motorola/potter/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/motorola/potter/proprietary/bin/pm-proxy:system/bin/pm-proxy \
