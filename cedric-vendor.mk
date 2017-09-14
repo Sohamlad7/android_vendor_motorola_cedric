@@ -175,7 +175,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/motorola/cedric/proprietary/lib/hw/camera.vendor.msm8937.so:system/lib/hw/camera.vendor.msm8937.so \
     vendor/motorola/cedric/proprietary/lib/hw/fingerprint.msm8937.so:system/lib/hw/fingerprint.msm8937.so \
-    vendor/motorola/cedric/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/motorola/cedric/proprietary/lib/hw/sensorhub.msm8937.so:system/lib/hw/sensorhub.msm8937.so \
     vendor/motorola/cedric/proprietary/lib/hw/sensors.msm8937.so:system/lib/hw/sensors.msm8937.so \
     vendor/motorola/cedric/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
@@ -196,16 +195,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/lib/libdtvtuner.so:system/lib/libdtvtuner.so \
     vendor/motorola/cedric/proprietary/lib/libfamily_photo.so:system/lib/libfamily_photo.so \
     vendor/motorola/cedric/proprietary/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
-    vendor/motorola/cedric/proprietary/lib/libgnsspps.so:system/lib/libgnsspps.so \
-    vendor/motorola/cedric/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/motorola/cedric/proprietary/lib/libjscore.so:system/lib/libjscore.so \
     vendor/motorola/cedric/proprietary/lib/libjustshoot.so:system/lib/libjustshoot.so \
     vendor/motorola/cedric/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/motorola/cedric/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/motorola/cedric/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/motorola/cedric/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-    vendor/motorola/cedric/proprietary/lib/libloc_pla.so:system/lib/libloc_pla.so \
-    vendor/motorola/cedric/proprietary/lib/libloc_stub.so:system/lib/libloc_stub.so \
     vendor/motorola/cedric/proprietary/lib/libmbs.so:system/lib/libmbs.so \
     vendor/motorola/cedric/proprietary/lib/libmdmcutback.so:system/lib/libmdmcutback.so \
     vendor/motorola/cedric/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
