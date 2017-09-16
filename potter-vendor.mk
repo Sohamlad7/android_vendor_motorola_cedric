@@ -22,6 +22,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/motorola/potter/proprietary/bin/dbvc_atvc_property_set:system/bin/dbvc_atvc_property_set \
     vendor/motorola/potter/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/motorola/potter/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
+    vendor/motorola/potter/proprietary/bin/imscmservice:system/bin/imscmservice \
+    vendor/motorola/potter/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
+    vendor/motorola/potter/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/motorola/potter/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/motorola/potter/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/motorola/potter/proprietary/bin/motosh:system/bin/motosh \
