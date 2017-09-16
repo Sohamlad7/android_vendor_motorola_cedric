@@ -32,6 +32,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/motorola/cedric/proprietary/bin/hal_proxy_daemon:system/bin/hal_proxy_daemon \
     vendor/motorola/cedric/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/motorola/cedric/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
+    vendor/motorola/cedric/proprietary/bin/imscmservice:system/bin/imscmservice \
+    vendor/motorola/cedric/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
+    vendor/motorola/cedric/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/motorola/cedric/proprietary/bin/iop:system/bin/iop \
     vendor/motorola/cedric/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/motorola/cedric/proprietary/bin/irsc_util:system/bin/irsc_util \
