@@ -900,7 +900,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
     vendor/motorola/potter/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/motorola/potter/proprietary/vendor/lib/libpanelmode.so:system/vendor/lib/libpanelmode.so \
-    vendor/motorola/potter/proprietary/vendor/lib/libbson.so:system/vendor/lib/libbson.so
+    vendor/motorola/potter/proprietary/vendor/lib/libbson.so:system/vendor/lib/libbson.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libguy.so:system/vendor/lib/libguy.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libuy.so:system/vendor/lib/libuy.so \
+
 PRODUCT_PACKAGES += \
     TimeService \
     datastatusnotification \
