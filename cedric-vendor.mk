@@ -182,7 +182,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/lib/libadvalgcore.so:system/lib/libadvalgcore.so \
     vendor/motorola/cedric/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
     vendor/motorola/cedric/proprietary/lib/libbabysit.so:system/lib/libbabysit.so \
-    vendor/motorola/cedric/proprietary/lib/libbson.so:system/lib/libbson.so \
     vendor/motorola/cedric/proprietary/lib/libcamerabgprocservice.so:system/lib/libcamerabgprocservice.so \
     vendor/motorola/cedric/proprietary/lib/libcce-socketjni.so:system/lib/libcce-socketjni.so \
     vendor/motorola/cedric/proprietary/lib/libcom_fingerprints_service.so:system/lib/libcom_fingerprints_service.so \
@@ -859,8 +858,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib/sensor_calibrate.so:system/vendor/lib/sensor_calibrate.so \
     vendor/motorola/cedric/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
     vendor/motorola/cedric/proprietary/vendor/qcril.db:system/vendor/qcril.db \
+    vendor/motorola/cedric/proprietary/lib/libmemalloc.so:system/lib/libmemalloc.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libprotobuf-cpp-shit.so:system/vendor/lib/libprotobuf-cpp-shit.so \
-    vendor/motorola/cedric/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so
+    vendor/motorola/cedric/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
+    vendor/motorola/cedric/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/motorola/cedric/proprietary/vendor/lib/libpanelmode.so:system/vendor/lib/libpanelmode.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libbson.so:system/vendor/lib/libbson.so
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
