@@ -29,7 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/motorola/cedric/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
     vendor/motorola/cedric/proprietary/bin/ftmipcd:system/bin/ftmipcd \
-    vendor/motorola/cedric/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/motorola/cedric/proprietary/bin/hal_proxy_daemon:system/bin/hal_proxy_daemon \
     vendor/motorola/cedric/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/motorola/cedric/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
