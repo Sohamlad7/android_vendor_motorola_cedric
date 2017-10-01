@@ -726,6 +726,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib/libqcmaputils.so:system/vendor/lib/libqcmaputils.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libprotobuf-cpp-lpro.so:system/vendor/lib/libprotobuf-cpp-lpro.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libqisl.so:system/vendor/lib/libqisl.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
