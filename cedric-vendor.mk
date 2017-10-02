@@ -869,11 +869,13 @@ PRODUCT_PACKAGES += \
     atfwd \
     TimeService \
     datastatusnotification \
+    QtiTetherService \
     com.qualcomm.location \
     embms \
     colorservice \
     ims \
     imssettings \
+    qcrilmsgtunnel \
     com.qti.snapdragon.sdk.display \
     com.qualcomm.location.vzw_library \
     embmslibrary \
