@@ -18,11 +18,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/bin/adspd:system/bin/adspd \
     vendor/motorola/potter/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/motorola/potter/proprietary/bin/akmd09912:system/bin/akmd09912 \
-    vendor/motorola/potter/proprietary/bin/batt_health:system/bin/batt_health \
     vendor/motorola/potter/proprietary/bin/cnd:system/bin/cnd \
     vendor/motorola/potter/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/motorola/potter/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
-    vendor/motorola/potter/proprietary/bin/dbvc_atvc_property_set:system/bin/dbvc_atvc_property_set \
     vendor/motorola/potter/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/motorola/potter/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/motorola/potter/proprietary/bin/imscmservice:system/bin/imscmservice \
