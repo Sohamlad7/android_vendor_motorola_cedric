@@ -19,13 +19,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/bin/adspd:system/bin/adspd \
     vendor/motorola/cedric/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/motorola/cedric/proprietary/bin/akmd09912:system/bin/akmd09912 \
-    vendor/motorola/cedric/proprietary/bin/batt_health:system/bin/batt_health \
     vendor/motorola/cedric/proprietary/bin/cnd:system/bin/cnd \
     vendor/motorola/cedric/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/motorola/cedric/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
     vendor/motorola/cedric/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/motorola/cedric/proprietary/bin/cnss_diag:system/bin/cnss_diag \
-    vendor/motorola/cedric/proprietary/bin/dbvc_atvc_property_set:system/bin/dbvc_atvc_property_set \
     vendor/motorola/cedric/proprietary/bin/dun-server:system/bin/dun-server \
     vendor/motorola/cedric/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/motorola/cedric/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
