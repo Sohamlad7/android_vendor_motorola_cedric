@@ -908,6 +908,7 @@ PRODUCT_PACKAGES += \
     TimeService \
     datastatusnotification \
     embms \
+    CNEService \
     colorservice \
     com.qti.location.sdk \
     com.qti.snapdragon.sdk.display \
