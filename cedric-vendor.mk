@@ -306,7 +306,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libSubSystemShutdown.so:system/vendor/lib/libSubSystemShutdown.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
-    vendor/motorola/cedric/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/motorola/cedric/proprietary/vendor/lib/lib_drplugin_server.so:system/vendor/lib/lib_drplugin_server.so \
     vendor/motorola/cedric/proprietary/vendor/lib/lib_remote_simlock.so:system/vendor/lib/lib_remote_simlock.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
@@ -554,8 +553,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib/libcppf.so:system/vendor/lib/libcppf.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
-    vendor/motorola/cedric/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
-    vendor/motorola/cedric/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libdrplugin_client.so:system/vendor/lib/libdrplugin_client.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
@@ -818,14 +815,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib/libwfduibcsinkinterface.so:system/vendor/lib/libwfduibcsinkinterface.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libwms.so:system/vendor/lib/libwms.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
-    vendor/motorola/cedric/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libzaf_algs.so:system/vendor/lib/libzaf_algs.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libzaf_core.so:system/vendor/lib/libzaf_core.so \
-    vendor/motorola/cedric/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/motorola/cedric/proprietary/vendor/lib/mmi_audio.so:system/vendor/lib/mmi_audio.so \
     vendor/motorola/cedric/proprietary/vendor/lib/mmi_battery.so:system/vendor/lib/mmi_battery.so \
     vendor/motorola/cedric/proprietary/vendor/lib/mmi_bluetooth.so:system/vendor/lib/mmi_bluetooth.so \
@@ -865,7 +860,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
     vendor/motorola/cedric/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/motorola/cedric/proprietary/vendor/lib/libpanelmode.so:system/vendor/lib/libpanelmode.so \
-    vendor/motorola/cedric/proprietary/vendor/lib/libbson.so:system/vendor/lib/libbson.so
+    vendor/motorola/cedric/proprietary/vendor/lib/libbson.so:system/vendor/lib/libbson.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libdrmutils.so:system/vendor/lib/libdrmutils.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
