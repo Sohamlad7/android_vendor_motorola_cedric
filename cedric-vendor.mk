@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/motorola/cedric/proprietary/bin/akmd09912:system/bin/akmd09912 \
     vendor/motorola/cedric/proprietary/bin/batt_health:system/bin/batt_health \
+    vendor/motorola/cedric/proprietary/bin/cnd:system/bin/cnd \
     vendor/motorola/cedric/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/motorola/cedric/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
     vendor/motorola/cedric/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
@@ -859,6 +860,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/qcril.db:system/vendor/qcril.db \
     vendor/motorola/cedric/proprietary/lib/libmemalloc.so:system/lib/libmemalloc.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libprotobuf-cpp-shit.so:system/vendor/lib/libprotobuf-cpp-shit.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libprotobuf-cpp-biss.so:system/vendor/lib/libprotobuf-cpp-biss.so \
     vendor/motorola/cedric/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
     vendor/motorola/cedric/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/motorola/cedric/proprietary/vendor/lib/libpanelmode.so:system/vendor/lib/libpanelmode.so \
