@@ -870,7 +870,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libdrmutils.so:system/vendor/lib/libdrmutils.so \
     vendor/motorola/cedric/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
-    vendor/motorola/cedric/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
+    vendor/motorola/cedric/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libHu.so:system/vendor/lib/libHu.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libHui.so:system/vendor/lib/libHui.so
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
