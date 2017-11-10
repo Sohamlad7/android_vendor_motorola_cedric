@@ -169,6 +169,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/motorola/cedric/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/motorola/cedric/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
+    vendor/motorola/cedric/proprietary/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
+    vendor/motorola/cedric/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
+    vendor/motorola/cedric/proprietary/lib/libldacBT_abr.so:system/lib/libldacBT_abr.so \
+    vendor/motorola/cedric/proprietary/lib/libldacBT_enc.so:system/lib/libldacBT_enc.so \
     vendor/motorola/cedric/proprietary/lib/hw/camera.vendor.msm8937.so:system/lib/hw/camera.msm8937.so \
     vendor/motorola/cedric/proprietary/lib/hw/fingerprint.msm8937.so:system/vendor/lib/hw/fingerprint.vendor.msm8937.so \
     vendor/motorola/cedric/proprietary/lib/hw/sensorhub.msm8937.so:system/lib/hw/sensorhub.msm8937.so \
