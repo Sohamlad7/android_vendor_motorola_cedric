@@ -1126,6 +1126,9 @@ PRODUCT_PACKAGES += \
     qti-vzw-ims-internal \
     rcsimssettings \
     tcmclient \
-    com.quicinc.cne.api-V1.0-java
+    com.quicinc.cne.api-V1.0-java \
+    HotwordEnrollmentOKGoogleCS47L35 \
+    HotwordEnrollmentTGoogleCS47L35 \
+    HotwordEnrollmentXGoogleCS47L35
 
 
