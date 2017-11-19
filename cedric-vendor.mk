@@ -1013,4 +1013,7 @@ PRODUCT_PACKAGES += \
     QPerformance \
     qti-vzw-ims-internal \
     rcsimssettings \
-    tcmclient
+    tcmclient \
+    HotwordEnrollmentOKGoogleCS47L35 \
+    HotwordEnrollmentTGoogleCS47L35 \
+    HotwordEnrollmentXGoogleCS47L35
