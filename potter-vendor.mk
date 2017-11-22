@@ -41,9 +41,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/bin/ssr_setup:system/bin/ssr_setup \
     vendor/motorola/potter/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/motorola/potter/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/motorola/potter/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
-    vendor/motorola/potter/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
-    vendor/motorola/potter/proprietary/bin/loc_launcher:system/bin/loc_launcher \
+    vendor/motorola/potter/proprietary/vendor/bin/xtwifi-client:system/vendor/bin/xtwifi-client \
+    vendor/motorola/potter/proprietary/vendor/bin/xtwifi-inet-agent:system/vendor/bin/xtwifi-inet-agent \
+    vendor/motorola/potter/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
+    vendor/motorola/potter/proprietary/vendor/bin/xtra-daemon:system/vendor/bin/xtra-daemon \
     vendor/motorola/potter/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/motorola/potter/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/motorola/potter/proprietary/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
@@ -161,8 +162,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/lib/libfamily_photo.so:system/lib/libfamily_photo.so \
     vendor/motorola/potter/proprietary/lib/libjscore.so:system/lib/libjscore.so \
     vendor/motorola/potter/proprietary/lib/libjustshoot.so:system/lib/libjustshoot.so \
-    vendor/motorola/potter/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/motorola/potter/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/libloc_api_v02.so:system/vendor/lib64/libloc_api_v02.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/libloc_ds_api.so:system/vendor/lib64/libloc_ds_api.so \
     vendor/motorola/potter/proprietary/lib/libmbs.so:system/lib/libmbs.so \
     vendor/motorola/potter/proprietary/lib/libmdmcutback.so:system/lib/libmdmcutback.so \
     vendor/motorola/potter/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
@@ -1022,8 +1025,27 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib64/libtime_genoff.so:system/vendor/lib64/libtime_genoff.so \
     vendor/motorola/potter/proprietary/vendor/lib64/libtinyxml2_1.so:system/vendor/lib64/libtinyxml2_1.so \
     vendor/motorola/potter/proprietary/vendor/lib64/vendor.display.color@1.0_vendor.so:system/vendor/lib64/vendor.display.color@1.0_vendor.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/vendor.display.postproc@1.0_vendor.so:system/vendor/lib64/vendor.display.postproc@1.0_vendor.so
-
+    vendor/motorola/potter/proprietary/vendor/lib64/vendor.display.postproc@1.0_vendor.so:system/vendor/lib64/vendor.display.postproc@1.0_vendor.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/libloc_externalDr.so:system/vendor/lib64/libloc_externalDr.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/libloc_ds_api.so:system/vendor/lib64/libloc_ds_api.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/libloc_core.so:system/vendor/lib64/libloc_core.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/libloc_api_v02.so:system/vendor/lib64/libloc_api_v02.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/lib_drplugin_server.so:system/vendor/lib64/lib_drplugin_server.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/libDRPlugin.so:system/vendor/lib64/libDRPlugin.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/libdrplugin_client.so:system/vendor/lib64/libdrplugin_client.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/libevent_observer.so:system/vendor/lib64/libevent_observer.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/libgdtap.so:system/vendor/lib64/libgdtap.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/libgnsspps.so:system/vendor/lib64/libgnsspps.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/liblowi_wifihal.so:system/vendor/lib64/liblowi_wifihal.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/libslimclient.so:system/vendor/lib64/libslimclient.so \
+    vendor/motorola/potter/proprietary/vendor/bin/hw/vendor.qti.gnss@1.0-service:system/vendor/bin/hw/vendor.qti.gnss@1.0-service \
+    vendor/motorola/potter/proprietary/vendor/etc/init/vendor.qti.gnss@1.0-service.rc:system/vendor/etc/init/vendor.qti.gnss@1.0-service.rc
 
 PRODUCT_PACKAGES += \
     TimeService \
