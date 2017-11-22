@@ -21,7 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/motorola/cedric/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
     vendor/motorola/cedric/proprietary/bin/gatekeeperd:system/bin/gatekeeperd \
-    vendor/motorola/cedric/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
+    vendor/motorola/cedric/proprietary/vendor/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/motorola/cedric/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/motorola/cedric/proprietary/bin/dun-server:system/bin/dun-server \
     vendor/motorola/cedric/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
