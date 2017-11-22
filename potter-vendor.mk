@@ -19,7 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/motorola/potter/proprietary/bin/akmd09912:system/bin/akmd09912 \
     vendor/motorola/potter/proprietary/bin/cnd:system/bin/cnd \
-    vendor/motorola/potter/proprietary/bin/btnvtool:system/bin/btnvtool \
+    vendor/motorola/potter/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
     vendor/motorola/potter/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
     vendor/motorola/potter/proprietary/bin/gatekeeperd:system/bin/gatekeeperd \
     vendor/motorola/potter/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
@@ -255,6 +255,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/motorola/potter/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/motorola/potter/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
     vendor/motorola/potter/proprietary/vendor/lib/libc2d30-a5xx.so:system/vendor/lib/libc2d30-a5xx.so \
     vendor/motorola/potter/proprietary/vendor/lib/libc2d30_bltlib.so:system/vendor/lib/libc2d30_bltlib.so \
     vendor/motorola/potter/proprietary/vendor/lib/libcamerabgproc-jni.so:system/vendor/lib/libcamerabgproc-jni.so \
