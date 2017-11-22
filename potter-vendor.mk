@@ -46,7 +46,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
     vendor/motorola/potter/proprietary/vendor/bin/xtra-daemon:system/vendor/bin/xtra-daemon \
     vendor/motorola/potter/proprietary/vendor/bin/cnss-daemon:system/vendor/bin/cnss-daemon \
-    vendor/motorola/potter/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
+    vendor/motorola/potter/proprietary/vendor/bin/ATFWD-daemon:system/vendor/bin/ATFWD-daemon \
     vendor/motorola/potter/proprietary/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/motorola/potter/proprietary/etc/acdbdata/General_cal.acdb:system/etc/acdbdata/General_cal.acdb \
     vendor/motorola/potter/proprietary/etc/acdbdata/Global_cal.acdb:system/etc/acdbdata/Global_cal.acdb \
@@ -252,7 +252,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/motorola/potter/proprietary/vendor/lib64/libadsp_default_listener.so:system/vendor/lib64/libadsp_default_listener.so \
     vendor/motorola/potter/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
-    
     vendor/motorola/potter/proprietary/vendor/lib64/libadsp_hvx_callback_skel.so:system/vendor/lib64/libadsp_hvx_callback_skel.so \
     vendor/motorola/potter/proprietary/vendor/lib64/libadsp_hvx_stub.so:system/vendor/lib64/libadsp_hvx_stub.so \
     vendor/motorola/potter/proprietary/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so \
@@ -1062,7 +1061,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/bin/hw/vendor.qti.hardware.iop@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.iop@1.0-service \
     vendor/motorola/potter/proprietary/vendor/etc/init/vendor.qti.hardware.iop@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.iop@1.0-service.rc \
     vendor/motorola/potter/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service \
-    vendor/motorola/potter/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc
+    vendor/motorola/potter/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc \
+    vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so \
     
 PRODUCT_PACKAGES += \
     TimeService \
