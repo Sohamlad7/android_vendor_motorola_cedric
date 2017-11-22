@@ -28,7 +28,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/motorola/potter/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/motorola/potter/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
-    vendor/motorola/potter/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/motorola/potter/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/motorola/potter/proprietary/bin/motosh:system/bin/motosh \
     vendor/motorola/potter/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/motorola/potter/proprietary/bin/pm-proxy:system/bin/pm-proxy \
@@ -250,8 +250,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/motorola/potter/proprietary/vendor/lib64/libadsp_default_listener.so:system/vendor/lib64/libadsp_default_listener.so \
     vendor/motorola/potter/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/libadsp_hvx_callback_skel.so:system/vendor/lib64/libadsp_hvx_callback_skel.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/libadsp_hvx_stub.so:system/vendor/lib64/libadsp_hvx_stub.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libadsp_hvx_callback_skel.so:system/vendor/lib/libadsp_hvx_callback_skel.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libadsp_hvx_stub.so:system/vendor/lib/libadsp_hvx_stub.so \
     vendor/motorola/potter/proprietary/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so \
     vendor/motorola/potter/proprietary/vendor/lib/libaptXScheduler.so:system/vendor/lib/libaptXScheduler.so \
     vendor/motorola/potter/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
@@ -820,7 +820,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib/sensor_calibrate.so:system/vendor/lib/sensor_calibrate.so \
     vendor/motorola/potter/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/motorola/potter/proprietary/etc/firmware/upd-00000126-00001001-fed70128-fffe0001-02.tftf:system/etc/firmware/upd-00000126-00001001-fed70128-fffe0001-02.tftf \
-    vendor/motorola/potter/proprietary/etc/cne/wqeclient/ROW/ROW_profile4.xml:system/etc/cne/wqeclient/ROW/ROW_profile4.xml \
+    vendor/motorola/potter/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile4.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile4.xml \
     vendor/motorola/potter/proprietary/bin/fmhal_service:system/bin/fmhal_service \
     vendor/motorola/potter/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_1080p_preview_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_1080p_preview_3a.so \
@@ -921,8 +921,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib/libdrmutils.so:system/vendor/lib/libdrmutils.so \
     vendor/motorola/potter/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/motorola/potter/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/motorola/potter/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
-    vendor/motorola/potter/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/motorola/potter/proprietary/lib64/libperipheral_client.so:system/lib64/libperipheral_client.so \
     vendor/motorola/potter/proprietary/lib64/vendor.display.color@1.0.so:system/lib64/vendor.display.color@1.0.so \
     vendor/motorola/potter/proprietary/lib64/vendor.display.postproc@1.0.so:system/lib64/vendor.display.postproc@1.0.so \
