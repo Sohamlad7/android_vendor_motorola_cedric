@@ -173,7 +173,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
     vendor/motorola/cedric/proprietary/lib/libldacBT_abr.so:system/lib/libldacBT_abr.so \
     vendor/motorola/cedric/proprietary/lib/libldacBT_enc.so:system/lib/libldacBT_enc.so \
-    vendor/motorola/cedric/proprietary/lib/hw/camera.vendor.msm8937.so:system/lib/hw/camera.msm8937.so \
+    vendor/motorola/cedric/proprietary/lib/hw/camera.vendor.msm8937.so:system/lib/hw/camera.vendor.msm8937.so \
     vendor/motorola/cedric/proprietary/lib/hw/fingerprint.msm8937.so:system/vendor/lib/hw/fingerprint.vendor.msm8937.so \
     vendor/motorola/cedric/proprietary/lib/hw/sensorhub.msm8937.so:system/lib/hw/sensorhub.msm8937.so \
     vendor/motorola/cedric/proprietary/lib/hw/sensors.msm8937.so:system/lib/hw/sensors.msm8937.so \
