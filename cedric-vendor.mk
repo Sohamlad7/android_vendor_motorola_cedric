@@ -214,7 +214,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/lib/libpkip.so:system/lib/libpkip.so \
     vendor/motorola/cedric/proprietary/lib/libprovlib.so:system/lib/libprovlib.so \
     vendor/motorola/cedric/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
-    vendor/motorola/cedric/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
     vendor/motorola/cedric/proprietary/lib/libsensorhub.so:system/lib/libsensorhub.so \
     vendor/motorola/cedric/proprietary/lib/libslpc.so:system/lib/libslpc.so \
     vendor/motorola/cedric/proprietary/lib/libtpa.so:system/lib/libtpa.so \
@@ -1056,7 +1056,26 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib64/libcneoplookup.so:system/vendor/lib64/libcneoplookup.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/libperfgluelayer.so:system/vendor/lib64/libperfgluelayer.so \
-    vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.gnss@1.0_vendor.so:system/vendor/lib64/vendor.qti.gnss@1.0_vendor.so
+    vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.gnss@1.0_vendor.so:system/vendor/lib64/vendor.qti.gnss@1.0_vendor.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libOmxAmrDec.so:system/vendor/lib/libOmxAmrDec.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libOmxDsdDec.so:system/vendor/lib/libOmxDsdDec.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libvpphvx.so:system/vendor/lib/libvpphvx.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libOmxVpp.so:system/vendor/lib/libOmxVpp.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libvpplibrary.so:system/vendor/lib/libvpplibrary.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libvpptestutils.so:system/vendor/lib/libvpptestutils.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libOmxAacDec.so:system/vendor/lib64/libOmxAacDec.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libOmxAlacDec.so:system/vendor/lib64/libOmxAlacDec.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libOmxAlacDecSw.so:system/vendor/lib64/libOmxAlacDecSw.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libOmxAmrwbplusDec.so:system/vendor/lib64/libOmxAmrwbplusDec.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libOmxApeDec.so:system/vendor/lib64/libOmxApeDec.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libOmxApeDecSw.so:system/vendor/lib64/libOmxApeDecSw.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libOmxEvrcDec.so:system/vendor/lib64/libOmxEvrcDec.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libOmxQcelp13Dec.so:system/vendor/lib64/libOmxQcelp13Dec.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libOmxVpp.so:system/vendor/lib64/libOmxVpp.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libvpphvx.so:system/vendor/lib64/libvpphvx.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libvpplibrary.so:system/vendor/lib64/libvpplibrary.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libvpptestutils.so:system/vendor/lib64/libvpptestutils.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libOmxAmrDec.so:system/vendor/lib64/libOmxAmrDec.so
 
 
 PRODUCT_PACKAGES += \
