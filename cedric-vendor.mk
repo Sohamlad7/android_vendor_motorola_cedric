@@ -17,7 +17,7 @@
 PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/motorola/cedric/proprietary/vendor/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
-    vendor/motorola/cedric/proprietary/bin/akmd09912:system/bin/akmd09912 \
+    vendor/motorola/cedric/proprietary/vendor/bin/akmd09912:system/vendor/bin/akmd09912 \
     vendor/motorola/cedric/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
     vendor/motorola/cedric/proprietary/vendor/bin/btnvtool:system/bin/btnvtool \
     vendor/motorola/cedric/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
@@ -25,38 +25,38 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/motorola/cedric/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/motorola/cedric/proprietary/bin/dun-server:system/bin/dun-server \
-    vendor/motorola/cedric/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
+    vendor/motorola/cedric/proprietary/vendor/bin/fm_qsoc_patches:system/vendor/bin/fm_qsoc_patches \
     vendor/motorola/cedric/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
     vendor/motorola/cedric/proprietary/bin/ftmipcd:system/bin/ftmipcd \
     vendor/motorola/cedric/proprietary/bin/hal_proxy_daemon:system/bin/hal_proxy_daemon \
     vendor/motorola/cedric/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/motorola/cedric/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
-    vendor/motorola/cedric/proprietary/bin/imscmservice:system/bin/imscmservice \
-    vendor/motorola/cedric/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
-    vendor/motorola/cedric/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
+    vendor/motorola/cedric/proprietary/vendor/bin/ims_rtp_daemon:system/vendor/bin/ims_rtp_daemon \
+    vendor/motorola/cedric/proprietary/vendor/bin/imscmservice:system/vendor/bin/imscmservice \
+    vendor/motorola/cedric/proprietary/vendor/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon \
+    vendor/motorola/cedric/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
     vendor/motorola/cedric/proprietary/bin/iop:system/bin/iop \
     vendor/motorola/cedric/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/motorola/cedric/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/motorola/cedric/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/motorola/cedric/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/motorola/cedric/proprietary/bin/motobox:system/bin/motobox \
-    vendor/motorola/cedric/proprietary/bin/motosh:system/bin/motosh \
+    vendor/motorola/cedric/proprietary/vendor/bin/motosh:system/vendor/bin/motosh \
     vendor/motorola/cedric/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
-    vendor/motorola/cedric/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/motorola/cedric/proprietary/bin/pm-proxy:system/bin/pm-proxy \
-    vendor/motorola/cedric/proprietary/bin/pm-service:system/bin/pm-service \
+    vendor/motorola/cedric/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
+    vendor/motorola/cedric/proprietary/vendor/bin/pm-proxy:system/vendor/bin/pm-proxy \
+    vendor/motorola/cedric/proprietary/vendor/bin/pm-service:system/vendor/bin/pm-service \
     vendor/motorola/cedric/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/motorola/cedric/proprietary/bin/qcom-system-daemon:system/bin/qcom-system-daemon \
     vendor/motorola/cedric/proprietary/bin/qmi_motext_hook:system/bin/qmi_motext_hook \
-    vendor/motorola/cedric/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/motorola/cedric/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/motorola/cedric/proprietary/bin/radish:system/bin/radish \
-    vendor/motorola/cedric/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/motorola/cedric/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/motorola/cedric/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/motorola/cedric/proprietary/bin/tcmd:system/bin/tcmd \
     vendor/motorola/cedric/proprietary/bin/tcmdhelp:system/bin/tcmdhelp \
     vendor/motorola/cedric/proprietary/bin/test_diag:system/bin/test_diag \
-    vendor/motorola/cedric/proprietary/bin/tftp_server:system/bin/tftp_server \
-    vendor/motorola/cedric/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/motorola/cedric/proprietary/vendor/bin/tftp_server:system/vendor/bin/tftp_server \
+    vendor/motorola/cedric/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/motorola/cedric/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/motorola/cedric/proprietary/vendor/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/motorola/cedric/proprietary/vendor/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
@@ -892,7 +892,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib/libprotobuf-cpp-shit.so:system/vendor/lib/libprotobuf-cpp-shit.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libprotobuf-cpp-biss.so:system/vendor/lib/libprotobuf-cpp-biss.so \
     vendor/motorola/cedric/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
-    vendor/motorola/cedric/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/motorola/cedric/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/motorola/cedric/proprietary/vendor/lib/libpanelmode.so:system/vendor/lib/libpanelmode.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libbson.so:system/vendor/lib/libbson.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
