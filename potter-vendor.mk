@@ -17,30 +17,30 @@
 PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/bin/adspd:system/vendor/bin/adspd \
     vendor/motorola/potter/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
-    vendor/motorola/potter/proprietary/bin/akmd09912:system/bin/akmd09912 \
+    vendor/motorola/potter/proprietary/vendor/bin/akmd09912:system/vendor/bin/akmd09912 \
     vendor/motorola/potter/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
     vendor/motorola/potter/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
     vendor/motorola/potter/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
     vendor/motorola/potter/proprietary/bin/gatekeeperd:system/bin/gatekeeperd \
     vendor/motorola/potter/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/motorola/potter/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
-    vendor/motorola/potter/proprietary/bin/imscmservice:system/bin/imscmservice \
-    vendor/motorola/potter/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
-    vendor/motorola/potter/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
+    vendor/motorola/potter/proprietary/vendor/bin/ims_rtp_daemon:system/vendor/bin/ims_rtp_daemon \
+    vendor/motorola/potter/proprietary/vendor/bin/imscmservice:system/vendor/bin/imscmservice \
+    vendor/motorola/potter/proprietary/vendor/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon \
+    vendor/motorola/potter/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
     vendor/motorola/potter/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/motorola/potter/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
-    vendor/motorola/potter/proprietary/bin/motosh:system/bin/motosh \
-    vendor/motorola/potter/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/motorola/potter/proprietary/bin/pm-proxy:system/bin/pm-proxy \
-    vendor/motorola/potter/proprietary/bin/pm-service:system/bin/pm-service \
+    vendor/motorola/potter/proprietary/vendor/bin/motosh:system/vendor/bin/motosh \
+    vendor/motorola/potter/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
+    vendor/motorola/potter/proprietary/vendor/bin/pm-proxy:system/vendor/bin/pm-proxy \
+    vendor/motorola/potter/proprietary/vendor/bin/pm-service:system/vendor/bin/pm-service \
     vendor/motorola/potter/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
     vendor/motorola/potter/proprietary/bin/qmi_motext_hook:system/bin/qmi_motext_hook \
-    vendor/motorola/potter/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/motorola/potter/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/motorola/potter/proprietary/bin/radish:system/bin/radish \
-    vendor/motorola/potter/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/motorola/potter/proprietary/bin/ssr_setup:system/bin/ssr_setup \
-    vendor/motorola/potter/proprietary/bin/tftp_server:system/bin/tftp_server \
-    vendor/motorola/potter/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/motorola/potter/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
+    vendor/motorola/potter/proprietary/vendor/bin/ssr_setup:system/vendor/bin/ssr_setup \
+    vendor/motorola/potter/proprietary/vendor/bin/tftp_server:system/vendor/bin/tftp_server \
+    vendor/motorola/potter/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/motorola/potter/proprietary/vendor/bin/xtwifi-client:system/vendor/bin/xtwifi-client \
     vendor/motorola/potter/proprietary/vendor/bin/xtwifi-inet-agent:system/vendor/bin/xtwifi-inet-agent \
     vendor/motorola/potter/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
@@ -846,8 +846,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/motorola/potter/proprietary/etc/firmware/upd-00000126-00001001-fed70128-fffe0001-02.tftf:system/etc/firmware/upd-00000126-00001001-fed70128-fffe0001-02.tftf \
     vendor/motorola/potter/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile4.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile4.xml \
-    vendor/motorola/potter/proprietary/bin/fmhal_service:system/bin/fmhal_service \
-    vendor/motorola/potter/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
+    vendor/motorola/potter/proprietary/vendor/bin/fmhal_service:system/vendor/bin/fmhal_service \
+    vendor/motorola/potter/proprietary/vendor/bin/fm_qsoc_patches:system/vendor/bin/fm_qsoc_patches \
     vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_1080p_preview_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_1080p_preview_3a.so \
     vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_1080p_video_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_1080p_video_3a.so \
     vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_4k_ihdr_video_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_4k_ihdr_video_3a.so \
@@ -935,7 +935,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib/libprotobuf-cpp-shit.so:system/vendor/lib/libprotobuf-cpp-shit.so \
     vendor/motorola/potter/proprietary/vendor/lib/libprotobuf-cpp-biss.so:system/vendor/lib/libprotobuf-cpp-biss.so \
     vendor/motorola/potter/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
-    vendor/motorola/potter/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/motorola/potter/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/motorola/potter/proprietary/vendor/lib/libpanelmode.so:system/vendor/lib/libpanelmode.so \
     vendor/motorola/potter/proprietary/vendor/lib/libbson.so:system/vendor/lib/libbson.so \
     vendor/motorola/potter/proprietary/vendor/lib/libguy.so:system/vendor/lib/libguy.so \
