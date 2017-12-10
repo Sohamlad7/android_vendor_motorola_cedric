@@ -1132,7 +1132,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
     vendor/motorola/potter/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
     vendor/motorola/potter/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so
+    vendor/motorola/potter/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libgralloc1.so:system/vendor/lib/libgralloc1.so
 
 PRODUCT_PACKAGES += \
     TimeService \
