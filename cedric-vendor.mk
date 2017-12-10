@@ -41,7 +41,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/motorola/cedric/proprietary/bin/motobox:system/bin/motobox \
     vendor/motorola/cedric/proprietary/vendor/bin/motosh:system/vendor/bin/motosh \
-    vendor/motorola/cedric/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
+    vendor/motorola/cedric/proprietary/vendor/bin/msm_irqbalance:system/vendor/bin/msm_irqbalance \
+    vendor/motorola/cedric/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
     vendor/motorola/cedric/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
     vendor/motorola/cedric/proprietary/vendor/bin/pm-proxy:system/vendor/bin/pm-proxy \
     vendor/motorola/cedric/proprietary/vendor/bin/pm-service:system/vendor/bin/pm-service \
