@@ -36,6 +36,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
     vendor/motorola/potter/proprietary/bin/qmi_motext_hook:system/bin/qmi_motext_hook \
     vendor/motorola/potter/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
+    vendor/motorola/potter/proprietary/vendor/bin/msm_irqbalance:system/vendor/bin/msm_irqbalance \
+    vendor/motorola/potter/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
     vendor/motorola/potter/proprietary/bin/radish:system/bin/radish \
     vendor/motorola/potter/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/motorola/potter/proprietary/vendor/bin/ssr_setup:system/vendor/bin/ssr_setup \
