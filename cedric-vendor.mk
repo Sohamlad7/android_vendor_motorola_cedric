@@ -18,7 +18,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/motorola/cedric/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/motorola/cedric/proprietary/bin/akmd09912:system/bin/akmd09912 \
-    vendor/motorola/cedric/proprietary/bin/cnd:system/bin/cnd \
     vendor/motorola/cedric/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/motorola/cedric/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
     vendor/motorola/cedric/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
