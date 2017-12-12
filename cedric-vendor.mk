@@ -876,6 +876,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libHu.so:system/vendor/lib/libHu.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libHui.so:system/vendor/lib/libHui.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/motorola/cedric/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/motorola/cedric/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/motorola/cedric/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
