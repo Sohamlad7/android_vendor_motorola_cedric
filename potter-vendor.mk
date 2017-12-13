@@ -39,6 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/bin/msm_irqbalance:system/vendor/bin/msm_irqbalance \
     vendor/motorola/potter/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
     vendor/motorola/potter/proprietary/bin/radish:system/bin/radish \
+    vendor/motorola/potter/proprietary/bin/sensorservice:system/bin/sensorservice \
     vendor/motorola/potter/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/motorola/potter/proprietary/vendor/bin/ssr_setup:system/vendor/bin/ssr_setup \
     vendor/motorola/potter/proprietary/vendor/bin/tftp_server:system/vendor/bin/tftp_server \
