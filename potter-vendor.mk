@@ -1130,7 +1130,22 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so \
     vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so \
     vendor/motorola/potter/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so
+    vendor/motorola/potter/proprietary/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so \
+    vendor/motorola/potter/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
+    vendor/motorola/potter/proprietary/lib64/egl/libGLES_android.so:system/lib64/egl/libGLES_android.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libEGL_adreno.so:system/vendor/lib/libEGL_adreno.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libGLESv1_CM_adreno.so:system/vendor/lib/libGLESv1_CM_adreno.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libGLESv2_adreno.so:system/vendor/lib/libGLESv2_adreno.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libc2dcolorconvert.so:system/vendor/lib/libc2dcolorconvert.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libq3dtools_adreno.so:system/vendor/lib/libq3dtools_adreno.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libsdmcore.so:system/vendor/lib/libsdmcore.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libsdmutils.so:system/vendor/lib/libsdmutils.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/hw/vulkan.msm8953.so:system/vendor/lib64/hw/vulkan.msm8953.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/libEGL_adreno.so:system/vendor/lib64/libEGL_adreno.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/libGLESv1_CM_adreno.so:system/vendor/lib64/libGLESv1_CM_adreno.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/libGLESv2_adreno.so:system/vendor/lib64/libGLESv2_adreno.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/libc2dcolorconvert.so:system/vendor/lib64/libc2dcolorconvert.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/libq3dtools_adreno.so:system/vendor/lib64/libq3dtools_adreno.so
 
 PRODUCT_PACKAGES += \
     TimeService \
