@@ -565,6 +565,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib/libcppf.so:system/vendor/lib/libcppf.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libdrplugin_client.so:system/vendor/lib/libdrplugin_client.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
@@ -1092,8 +1093,22 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so \
     vendor/motorola/cedric/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
-    vendor/motorola/cedric/proprietary/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so
-
+    vendor/motorola/cedric/proprietary/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so \
+    vendor/motorola/cedric/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
+    vendor/motorola/cedric/proprietary/lib64/egl/libGLES_android.so:system/lib64/egl/libGLES_android.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libEGL_adreno.so:system/vendor/lib/libEGL_adreno.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libGLESv1_CM_adreno.so:system/vendor/lib/libGLESv1_CM_adreno.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libGLESv2_adreno.so:system/vendor/lib/libGLESv2_adreno.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libc2dcolorconvert.so:system/vendor/lib/libc2dcolorconvert.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libq3dtools_adreno.so:system/vendor/lib/libq3dtools_adreno.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libsdmcore.so:system/vendor/lib/libsdmcore.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libsdmutils.so:system/vendor/lib/libsdmutils.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/hw/vulkan.msm8937.so:system/vendor/lib64/hw/vulkan.msm8937.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libEGL_adreno.so:system/vendor/lib64/libEGL_adreno.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libGLESv1_CM_adreno.so:system/vendor/lib64/libGLESv1_CM_adreno.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libGLESv2_adreno.so:system/vendor/lib64/libGLESv2_adreno.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libc2dcolorconvert.so:system/vendor/lib64/libc2dcolorconvert.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libq3dtools_adreno.so:system/vendor/lib64/libq3dtools_adreno.so
 
 PRODUCT_PACKAGES += \
     atfwd \
