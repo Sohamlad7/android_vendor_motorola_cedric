@@ -22,7 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
     vendor/motorola/cedric/proprietary/vendor/bin/btnvtool:system/bin/btnvtool \
     vendor/motorola/cedric/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
-    vendor/motorola/cedric/proprietary/bin/gatekeeperd:system/bin/gatekeeperd \
     vendor/motorola/cedric/proprietary/vendor/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/motorola/cedric/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/motorola/cedric/proprietary/bin/dun-server:system/bin/dun-server \
@@ -1088,12 +1087,22 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libgralloc1.so:system/vendor/lib/libgralloc1.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libGPreqcancel.so:system/vendor/lib64/libGPreqcancel.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libGPreqcancel_svc.so:system/vendor/lib64/libGPreqcancel_svc.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libqisl.so:system/vendor/lib64/libqisl.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
     vendor/motorola/cedric/proprietary/lib/vendor.qti.hardware.fm@1.0.so:system/lib/vendor.qti.hardware.fm@1.0.so \
     vendor/motorola/cedric/proprietary/lib64/vendor.qti.hardware.fm@1.0.so:system/lib64/vendor.qti.hardware.fm@1.0.so \
     vendor/motorola/cedric/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so \
     vendor/motorola/cedric/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/hw/gatekeeper.msm8937.so:system/vendor/lib64/hw/gatekeeper.msm8937.so \
     vendor/motorola/cedric/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/motorola/cedric/proprietary/lib64/egl/libGLES_android.so:system/lib64/egl/libGLES_android.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libEGL_adreno.so:system/vendor/lib/libEGL_adreno.so \
