@@ -1157,7 +1157,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     atfwd \
     TimeService \
-    datastatusnotification \
     QtiTetherService \
     embms \
     colorservice \
@@ -1169,6 +1168,8 @@ PRODUCT_PACKAGES += \
     embmslibrary \
     imscmlibrary \
     izat.xt.srv \
+    qti-telephony-common \
+    QtiTelephonyServicelibrary \
     qcrilhook \
     cneapiclient \
     com.qti.location.sdk \
