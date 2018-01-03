@@ -1195,7 +1195,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     TimeService \
-    datastatusnotification \
     embms \
     colorservice \
     com.qti.location.sdk \
@@ -1212,6 +1211,7 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     izat.xt.srv \
     qti-telephony-common \
+    QtiTelephonyServicelibrary \
     atfwd \
     cneapiclient \
     com.qti.dpmframework \
