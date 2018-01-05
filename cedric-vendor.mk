@@ -51,7 +51,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/bin/qmi_motext_hook:system/bin/qmi_motext_hook \
     vendor/motorola/cedric/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/motorola/cedric/proprietary/bin/radish:system/bin/radish \
-    vendor/motorola/cedric/proprietary/bin/sensorservice:system/bin/sensorservice \
     vendor/motorola/cedric/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/motorola/cedric/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/motorola/cedric/proprietary/bin/tcmd:system/bin/tcmd \
