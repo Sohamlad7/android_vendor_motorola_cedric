@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/bin/akmd09912:system/vendor/bin/akmd09912 \
     vendor/motorola/cedric/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
     vendor/motorola/cedric/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
+    vendor/motorola/cedric/proprietary/vendor/bin/energy-awareness:system/vendor/bin/energy-awareness \
     vendor/motorola/cedric/proprietary/vendor/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/motorola/cedric/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/motorola/cedric/proprietary/bin/dun-server:system/bin/dun-server \
