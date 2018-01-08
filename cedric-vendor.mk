@@ -48,7 +48,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/bin/pm-service:system/vendor/bin/pm-service \
     vendor/motorola/cedric/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/motorola/cedric/proprietary/bin/qcom-system-daemon:system/bin/qcom-system-daemon \
-    vendor/motorola/cedric/proprietary/bin/qmi_motext_hook:system/bin/qmi_motext_hook \
+    vendor/motorola/cedric/proprietary/vendor/bin/qmi_motext_hook:system/vendor/bin/qmi_motext_hook \
     vendor/motorola/cedric/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/motorola/cedric/proprietary/bin/radish:system/bin/radish \
     vendor/motorola/cedric/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
@@ -88,8 +88,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile4.xml:system/vendor/etc/cne/wqeclient/VZW/VZW_profile4.xml \
     vendor/motorola/cedric/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile5.xml:system/vendor/etc/cne/wqeclient/VZW/VZW_profile5.xml \
     vendor/motorola/cedric/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml:system/vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml \
-    vendor/motorola/cedric/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
-    vendor/motorola/cedric/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
+    vendor/motorola/cedric/proprietary/etc/data/dsi_config.xml:system/vendor/etc/data/dsi_config.xml \
+    vendor/motorola/cedric/proprietary/etc/data/netmgr_config.xml:system/vendor/etc/data/netmgr_config.xml \
     vendor/motorola/cedric/proprietary/etc/firmware/DE.o.msm8937:system/etc/firmware/DE.o.msm8937 \
     vendor/motorola/cedric/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/motorola/cedric/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
@@ -888,7 +888,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib/rfsa/adsp/libscveTextReco_skel.so:system/vendor/lib/rfsa/adsp/libscveTextReco_skel.so \
     vendor/motorola/cedric/proprietary/vendor/lib/sensor_calibrate.so:system/vendor/lib/sensor_calibrate.so \
     vendor/motorola/cedric/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
-    vendor/motorola/cedric/proprietary/vendor/qcril.db:system/vendor/qcril.db \
+    vendor/motorola/cedric/proprietary/vendor/radio/qcril_database/qcril.db:system/vendor/radio/qcril_database/qcril.db \
     vendor/motorola/cedric/proprietary/lib/libmemalloc.so:system/lib/libmemalloc.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libprotobuf-cpp-shit.so:system/vendor/lib/libprotobuf-cpp-shit.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libprotobuf-cpp-biss.so:system/vendor/lib/libprotobuf-cpp-biss.so \
@@ -1115,7 +1115,34 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib64/libc2dcolorconvert.so:system/vendor/lib64/libc2dcolorconvert.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/libq3dtools_adreno.so:system/vendor/lib64/libq3dtools_adreno.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
-    vendor/motorola/cedric/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:system/vendor/lib64/mediadrm/libwvdrmengine.so
+    vendor/motorola/cedric/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:system/vendor/lib64/mediadrm/libwvdrmengine.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libadropbox.so:system/vendor/lib64/libadropbox.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libmdmcutback.so:system/vendor/lib64/libmdmcutback.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libmotext_inf.so:system/vendor/lib64/libmotext_inf.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libqmimotext.so:system/vendor/lib64/libqmimotext.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libqsap_sdk.so:system/vendor/lib64/libqsap_sdk.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/librilqmiservices.so:system/vendor/lib64/librilqmiservices.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/librilutils.so:system/vendor/lib64/librilutils.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libsensorndkbridge.so:system/vendor/lib64/libsensorndkbridge.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libsettings.so:system/vendor/lib64/libsettings.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libsubsystem_control.so:system/vendor/lib64/libsubsystem_control.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libSubSystemShutdown.so:system/vendor/lib64/libSubSystemShutdown.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.hardware.radio.am@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.am@1.0_vendor.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.ims@1.0_vendor.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.hardware.radio.lpa@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.lpa@1.0_vendor.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.hardware.radio.qcrilhook@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.qcrilhook@1.0_vendor.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.qtiradio@1.0_vendor.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.uim@1.0_vendor.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so
 
 PRODUCT_PACKAGES += \
     atfwd \
@@ -1146,4 +1173,5 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleCS47L35 \
     HotwordEnrollmentTGoogleCS47L35 \
     HotwordEnrollmentXGoogleCS47L35 \
+    QtiTelephonyService \
     com.quicinc.cne.api-V1.0-java
