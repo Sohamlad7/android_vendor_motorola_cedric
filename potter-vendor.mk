@@ -20,6 +20,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/bin/akmd09912:system/vendor/bin/akmd09912 \
     vendor/motorola/potter/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
     vendor/motorola/potter/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
+    vendor/motorola/potter/proprietary/vendor/bin/energy-awareness:system/vendor/bin/energy-awareness \
     vendor/motorola/potter/proprietary/vendor/bin/ims_rtp_daemon:system/vendor/bin/ims_rtp_daemon \
     vendor/motorola/potter/proprietary/vendor/bin/imscmservice:system/vendor/bin/imscmservice \
     vendor/motorola/potter/proprietary/vendor/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon \
