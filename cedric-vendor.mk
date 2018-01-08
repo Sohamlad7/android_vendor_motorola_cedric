@@ -20,7 +20,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/motorola/cedric/proprietary/vendor/bin/akmd09912:system/vendor/bin/akmd09912 \
     vendor/motorola/cedric/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
-    vendor/motorola/cedric/proprietary/vendor/bin/btnvtool:system/bin/btnvtool \
     vendor/motorola/cedric/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
     vendor/motorola/cedric/proprietary/vendor/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/motorola/cedric/proprietary/bin/cnss_diag:system/bin/cnss_diag \
@@ -29,7 +28,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
     vendor/motorola/cedric/proprietary/bin/ftmipcd:system/bin/ftmipcd \
     vendor/motorola/cedric/proprietary/bin/hal_proxy_daemon:system/bin/hal_proxy_daemon \
-    vendor/motorola/cedric/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/motorola/cedric/proprietary/vendor/bin/ims_rtp_daemon:system/vendor/bin/ims_rtp_daemon \
     vendor/motorola/cedric/proprietary/vendor/bin/imscmservice:system/vendor/bin/imscmservice \
     vendor/motorola/cedric/proprietary/vendor/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon \
@@ -341,6 +339,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:system/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so:system/vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so \
+    vendor/motorola/cedric/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:system/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti \
+    vendor/motorola/cedric/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:system/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/motorola/cedric/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libc2d30-a5xx.so:system/vendor/lib/libc2d30-a5xx.so \
