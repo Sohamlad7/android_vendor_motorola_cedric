@@ -39,7 +39,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/motorola/cedric/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/motorola/cedric/proprietary/bin/motobox:system/bin/motobox \
-    vendor/motorola/cedric/proprietary/vendor/bin/motosh:system/vendor/bin/motosh \
     vendor/motorola/cedric/proprietary/vendor/bin/msm_irqbalance:system/vendor/bin/msm_irqbalance \
     vendor/motorola/cedric/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
     vendor/motorola/cedric/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
@@ -51,7 +50,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/motorola/cedric/proprietary/bin/radish:system/bin/radish \
     vendor/motorola/cedric/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
-    vendor/motorola/cedric/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/motorola/cedric/proprietary/bin/tcmd:system/bin/tcmd \
     vendor/motorola/cedric/proprietary/bin/tcmdhelp:system/bin/tcmdhelp \
     vendor/motorola/cedric/proprietary/bin/test_diag:system/bin/test_diag \
@@ -136,7 +134,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
     vendor/motorola/cedric/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
     vendor/motorola/cedric/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
-    vendor/motorola/cedric/proprietary/etc/firmware/sensorhub-blacklist.txt:system/etc/firmware/sensorhub-blacklist.txt \
     vendor/motorola/cedric/proprietary/etc/firmware/sensorhubfw.bin:system/etc/firmware/sensorhubfw.bin \
     vendor/motorola/cedric/proprietary/etc/firmware/synaptics-boe-potter-16112102-25d862-potter.tdat:system/etc/firmware/synaptics-boe-potter-16112102-25d862-potter.tdat \
     vendor/motorola/cedric/proprietary/etc/firmware/synaptics-boe-s3203b-16112102-25d862-potter.tdat:system/etc/firmware/synaptics-boe-s3203b-16112102-25d862-potter.tdat \
@@ -175,8 +172,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/lib/libldacBT_enc.so:system/lib/libldacBT_enc.so \
     vendor/motorola/cedric/proprietary/lib/hw/camera.vendor.msm8937.so:system/lib/hw/camera.vendor.msm8937.so \
     vendor/motorola/cedric/proprietary/lib/hw/fingerprint.msm8937.so:system/vendor/lib/hw/fingerprint.vendor.msm8937.so \
-    vendor/motorola/cedric/proprietary/lib/hw/sensorhub.msm8937.so:system/lib/hw/sensorhub.msm8937.so \
-    vendor/motorola/cedric/proprietary/lib/hw/sensors.msm8937.so:system/lib/hw/sensors.msm8937.so \
     vendor/motorola/cedric/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/motorola/cedric/proprietary/lib/lib_mot_app6_metadata.so:system/lib/lib_mot_app6_metadata.so \
     vendor/motorola/cedric/proprietary/lib/lib_motsensorlistener.so:system/lib/lib_motsensorlistener.so \
@@ -214,7 +209,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/lib/libprovlib.so:system/lib/libprovlib.so \
     vendor/motorola/cedric/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
-    vendor/motorola/cedric/proprietary/lib/libsensorhub.so:system/lib/libsensorhub.so \
     vendor/motorola/cedric/proprietary/lib/libslpc.so:system/lib/libslpc.so \
     vendor/motorola/cedric/proprietary/lib/libtpa.so:system/lib/libtpa.so \
     vendor/motorola/cedric/proprietary/lib/libtpa_core.so:system/lib/libtpa_core.so \
