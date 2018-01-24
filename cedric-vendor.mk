@@ -1165,7 +1165,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     atfwd \
     TimeService \
-    QtiTetherService \
     embms \
     colorservice \
     ims \
