@@ -178,18 +178,6 @@ LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := colorservice
-LOCAL_MODULE_OWNER := motorola
-LOCAL_SRC_FILES := proprietary/vendor/app/colorservice/colorservice.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PROPRIETARY_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := com.qti.location.sdk
 LOCAL_MODULE_OWNER := motorola
 LOCAL_SRC_FILES := proprietary/framework/com.qti.location.sdk.jar
