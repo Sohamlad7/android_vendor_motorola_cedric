@@ -692,6 +692,18 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_ov5695_postproc.so:system/vendor/lib/libchromatix_mot_ov5695_postproc.so \
     vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_ov5695_snapshot.so:system/vendor/lib/libchromatix_mot_ov5695_snapshot.so \
     vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_ov5695_snapshot_3a.so:system/vendor/lib/libchromatix_mot_ov5695_snapshot_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_common.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_common.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_hfr_120.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_hfr_120.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_liveshot.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_liveshot.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_snapshot.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_snapshot.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_video.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_video.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_default_video.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_default_video.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_default_video_3a.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_default_video_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_hfr_120.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_hfr_120.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_hfr_120_3a.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_hfr_120_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_postproc.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_postproc.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_snapshot.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_snapshot.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_snapshot_3a.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_snapshot_3a.so \
     vendor/motorola/potter/proprietary/vendor/lib/libchromatix_s5k3p3_common.so:system/vendor/lib/libchromatix_s5k3p3_common.so \
     vendor/motorola/potter/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k3p3_cpp_hfr_120.so \
     vendor/motorola/potter/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k3p3_cpp_liveshot.so \
