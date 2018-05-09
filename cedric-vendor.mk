@@ -172,7 +172,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/lib/hw/fingerprint.msm8937.so:system/vendor/lib/hw/fingerprint.vendor.msm8937.so \
     vendor/motorola/cedric/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/motorola/cedric/proprietary/lib/lib_mot_app6_metadata.so:system/lib/lib_mot_app6_metadata.so \
-    vendor/motorola/cedric/proprietary/lib/lib_motsensorlistener.so:system/lib/lib_motsensorlistener.so \
+    vendor/motorola/cedric/proprietary/lib/lib_motsensorlistener.so:system/vendor/lib/lib_motsensorlistener.so \
     vendor/motorola/cedric/proprietary/lib/lib_mottof.so:system/lib/lib_mottof.so \
     vendor/motorola/cedric/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
     vendor/motorola/cedric/proprietary/lib/libadvalgcore.so:system/lib/libadvalgcore.so \
@@ -188,7 +188,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/lib/libfamily_photo.so:system/lib/libfamily_photo.so \
     vendor/motorola/cedric/proprietary/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
     vendor/motorola/cedric/proprietary/lib/libjscore.so:system/lib/libjscore.so \
-    vendor/motorola/cedric/proprietary/lib/libjustshoot.so:system/lib/libjustshoot.so \
+    vendor/motorola/cedric/proprietary/lib/libjustshoot.so:system/vendor/lib/libjustshoot.so \
     vendor/motorola/cedric/proprietary/lib/libmbs.so:system/lib/libmbs.so \
     vendor/motorola/cedric/proprietary/lib/libmdmcutback.so:system/lib/libmdmcutback.so \
     vendor/motorola/cedric/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
