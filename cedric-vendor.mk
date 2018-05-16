@@ -143,7 +143,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/etc/firmware/synaptics-tianma-potter-16120802-237533-potter.tdat:system/etc/firmware/synaptics-tianma-potter-16120802-237533-potter.tdat \
     vendor/motorola/cedric/proprietary/etc/firmware/synaptics-tianma-s3203b-16120802-237533-potter.tdat:system/etc/firmware/synaptics-tianma-s3203b-16120802-237533-potter.tdat \
     vendor/motorola/cedric/proprietary/etc/firmware/synaptics-tianma-s3203b-16120901-25d862-cedric.tdat:system/etc/firmware/synaptics-tianma-s3203b-16120901-25d862-cedric.tdat \
-    vendor/motorola/cedric/proprietary/etc/firmware/upd-00000126-00001001-fed70128-fffe0001-02.tftf:system/etc/firmware/upd-00000126-00001001-fed70128-fffe0001-02.tftf \
     vendor/motorola/cedric/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/motorola/cedric/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Argentina.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Argentina.bin \
     vendor/motorola/cedric/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Brazil.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Brazil.bin \
@@ -166,53 +165,53 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qcrilhook.xml \
     vendor/motorola/cedric/proprietary/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_permissions.xml \
     vendor/motorola/cedric/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
-    vendor/motorola/cedric/proprietary/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
-    vendor/motorola/cedric/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
-    vendor/motorola/cedric/proprietary/lib/hw/camera.vendor.msm8937.so:system/lib/hw/camera.vendor.msm8937.so \
+    vendor/motorola/cedric/proprietary/lib/libaptXHD_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaptXHD_encoder.so \
+    vendor/motorola/cedric/proprietary/lib/libaptX_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaptX_encoder.so \
+    vendor/motorola/cedric/proprietary/lib/hw/camera.vendor.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.vendor.msm8937.so \
     vendor/motorola/cedric/proprietary/lib/hw/fingerprint.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.vendor.msm8937.so \
-    vendor/motorola/cedric/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
-    vendor/motorola/cedric/proprietary/lib/lib_mot_app6_metadata.so:system/lib/lib_mot_app6_metadata.so \
-    vendor/motorola/cedric/proprietary/lib/lib_motsensorlistener.so:system/lib/lib_motsensorlistener.so \
-    vendor/motorola/cedric/proprietary/lib/lib_mottof.so:system/lib/lib_mottof.so \
-    vendor/motorola/cedric/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
-    vendor/motorola/cedric/proprietary/lib/libadvalgcore.so:system/lib/libadvalgcore.so \
-    vendor/motorola/cedric/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
+    vendor/motorola/cedric/proprietary/lib/lib_fpc_tac_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_fpc_tac_shared.so \
+    vendor/motorola/cedric/proprietary/lib/lib_mot_app6_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_mot_app6_metadata.so \
+    vendor/motorola/cedric/proprietary/lib/lib_motsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_motsensorlistener.so \
+    vendor/motorola/cedric/proprietary/lib/lib_mottof.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_mottof.so \
+    vendor/motorola/cedric/proprietary/lib/libadropbox.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadropbox.so \
+    vendor/motorola/cedric/proprietary/lib/libadvalgcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadvalgcore.so \
+    vendor/motorola/cedric/proprietary/lib/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_beautyshot.so \
     vendor/motorola/cedric/proprietary/lib/libbabysit.so:system/lib/libbabysit.so \
-    vendor/motorola/cedric/proprietary/lib/libcamerabgprocservice.so:system/lib/libcamerabgprocservice.so \
+    vendor/motorola/cedric/proprietary/lib/libcamerabgprocservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamerabgprocservice.so \
     vendor/motorola/cedric/proprietary/lib/libcce-socketjni.so:system/lib/libcce-socketjni.so \
-    vendor/motorola/cedric/proprietary/lib/libcom_fingerprints_service.so:system/lib/libcom_fingerprints_service.so \
+    vendor/motorola/cedric/proprietary/lib/libcom_fingerprints_service.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcom_fingerprints_service.so \
     vendor/motorola/cedric/proprietary/lib/libdmengine.so:system/lib/libdmengine.so \
     vendor/motorola/cedric/proprietary/lib/libdmjavaplugin.so:system/lib/libdmjavaplugin.so \
     vendor/motorola/cedric/proprietary/lib/libdtvhal.so:system/lib/libdtvhal.so \
     vendor/motorola/cedric/proprietary/lib/libdtvtuner.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdtvtuner.so \
-    vendor/motorola/cedric/proprietary/lib/libfamily_photo.so:system/lib/libfamily_photo.so \
+    vendor/motorola/cedric/proprietary/lib/libfamily_photo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfamily_photo.so \
     vendor/motorola/cedric/proprietary/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
-    vendor/motorola/cedric/proprietary/lib/libjscore.so:system/lib/libjscore.so \
-    vendor/motorola/cedric/proprietary/lib/libjustshoot.so:system/lib/libjustshoot.so \
-    vendor/motorola/cedric/proprietary/lib/libmbs.so:system/lib/libmbs.so \
-    vendor/motorola/cedric/proprietary/lib/libmdmcutback.so:system/lib/libmdmcutback.so \
-    vendor/motorola/cedric/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
-    vendor/motorola/cedric/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/motorola/cedric/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/motorola/cedric/proprietary/lib/libmorpho_image_stabilizer4.so:system/lib/libmorpho_image_stabilizer4.so \
-    vendor/motorola/cedric/proprietary/lib/libmot-qc-fd-offline.so:system/lib/libmot-qc-fd-offline.so \
-    vendor/motorola/cedric/proprietary/lib/libmot_afd.so:system/lib/libmot_afd.so \
-    vendor/motorola/cedric/proprietary/lib/libmot_lux_standardization.so:system/lib/libmot_lux_standardization.so \
-    vendor/motorola/cedric/proprietary/lib/libmotaudioutils.so:system/lib/libmotaudioutils.so \
-    vendor/motorola/cedric/proprietary/lib/libmotefem_svc.so:system/lib/libmotefem_svc.so \
-    vendor/motorola/cedric/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \
-    vendor/motorola/cedric/proprietary/lib/libmotimager_utils.so:system/lib/libmotimager_utils.so \
-    vendor/motorola/cedric/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
+    vendor/motorola/cedric/proprietary/lib/libjscore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjscore.so \
+    vendor/motorola/cedric/proprietary/lib/libjustshoot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjustshoot.so \
+    vendor/motorola/cedric/proprietary/lib/libmbs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmbs.so \
+    vendor/motorola/cedric/proprietary/lib/libmdmcutback.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdmcutback.so \
+    vendor/motorola/cedric/proprietary/lib/libmm-qcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qcamera.so \
+    vendor/motorola/cedric/proprietary/lib/libmmcamera_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_interface.so \
+    vendor/motorola/cedric/proprietary/lib/libmmjpeg_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg_interface.so \
+    vendor/motorola/cedric/proprietary/lib/libmorpho_image_stabilizer4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmorpho_image_stabilizer4.so \
+    vendor/motorola/cedric/proprietary/lib/libmot-qc-fd-offline.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmot-qc-fd-offline.so \
+    vendor/motorola/cedric/proprietary/lib/libmot_afd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmot_afd.so \
+    vendor/motorola/cedric/proprietary/lib/libmot_lux_standardization.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmot_lux_standardization.so \
+    vendor/motorola/cedric/proprietary/lib/libmotaudioutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmotaudioutils.so \
+    vendor/motorola/cedric/proprietary/lib/libmotefem_svc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmotefem_svc.so \
+    vendor/motorola/cedric/proprietary/lib/libmotext_inf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmotext_inf.so \
+    vendor/motorola/cedric/proprietary/lib/libmotimager_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmotimager_utils.so \
+    vendor/motorola/cedric/proprietary/lib/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpbase.so \
     vendor/motorola/cedric/proprietary/lib/libpkip.so:system/lib/libpkip.so \
     vendor/motorola/cedric/proprietary/lib/libprovlib.so:system/lib/libprovlib.so \
-    vendor/motorola/cedric/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
+    vendor/motorola/cedric/proprietary/lib/libqmimotext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmimotext.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libqomx_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_core.so \
     vendor/motorola/cedric/proprietary/lib/libslpc.so:system/lib/libslpc.so \
     vendor/motorola/cedric/proprietary/lib/libtpa.so:system/lib/libtpa.so \
     vendor/motorola/cedric/proprietary/lib/libtpa_core.so:system/lib/libtpa_core.so \
     vendor/motorola/cedric/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/motorola/cedric/proprietary/lib/libwbxmlparser.so:system/lib/libwbxmlparser.so \
-    vendor/motorola/cedric/proprietary/lib/libzxingcpp.so:system/lib/libzxingcpp.so \
+    vendor/motorola/cedric/proprietary/lib/libzxingcpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libzxingcpp.so \
     vendor/motorola/cedric/proprietary/vendor/bin/audioflacapp:$(TARGET_COPY_OUT_VENDOR)/bin/audioflacapp \
     vendor/motorola/cedric/proprietary/vendor/bin/mm-pp-dpps:$(TARGET_COPY_OUT_VENDOR)/bin/mm-pp-dpps \
     vendor/motorola/cedric/proprietary/vendor/bin/qseeproxydaemon:$(TARGET_COPY_OUT_VENDOR)/bin/qseeproxydaemon \
@@ -881,7 +880,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib/sensor_calibrate.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensor_calibrate.so \
     vendor/motorola/cedric/proprietary/vendor/lib/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.ssc.so \
     vendor/motorola/cedric/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db \
-    vendor/motorola/cedric/proprietary/lib/libmemalloc.so:system/lib/libmemalloc.so \
+    vendor/motorola/cedric/proprietary/lib/libmemalloc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmemalloc.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libprotobuf-cpp-shit.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-shit.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libprotobuf-cpp-biss.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-biss.so \
     vendor/motorola/cedric/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
@@ -897,7 +896,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib/libloc_ds_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_ds_api.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/libloc_api_v02.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_api_v02.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/libloc_ds_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_ds_api.so \
-    vendor/motorola/cedric/proprietary/lib64/libperipheral_client.so:system/lib64/libperipheral_client.so \
+    vendor/motorola/cedric/proprietary/lib64/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperipheral_client.so \
     vendor/motorola/cedric/proprietary/lib64/vendor.display.color@1.0.so:system/lib64/vendor.display.color@1.0.so \
     vendor/motorola/cedric/proprietary/lib64/vendor.display.postproc@1.0.so:system/lib64/vendor.display.postproc@1.0.so \
     vendor/motorola/cedric/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
@@ -1125,24 +1124,23 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib64/lib-imsvtutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsvtutils.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/lib-uceservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-uceservice.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/libdiag_system.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdiag_system.so \
-    vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.hardware.camera.device@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.device@1.0_vendor.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0_vendor.so \
     vendor/motorola/cedric/proprietary/framework/com.qualcomm.qti.imscmservice@1.0-java.jar:system/framework/com.qualcomm.qti.imscmservice@1.0-java.jar \
     vendor/motorola/cedric/proprietary/vendor/lib64/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorndkbridge.so \
-    vendor/motorola/cedric/proprietary/lib/libsd_sdk_display.so:system/lib/libsd_sdk_display.so \
-    vendor/motorola/cedric/proprietary/lib/libsdm-disp-apis.so:system/lib/libsdm-disp-apis.so \
-    vendor/motorola/cedric/proprietary/lib64/libsd_sdk_display.so:system/lib64/libsd_sdk_display.so \
-    vendor/motorola/cedric/proprietary/lib64/libsdm-disp-apis.so:system/lib64/libsdm-disp-apis.so \
+    vendor/motorola/cedric/proprietary/lib/libsd_sdk_display.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsd_sdk_display.so \
+    vendor/motorola/cedric/proprietary/lib/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-disp-apis.so \
+    vendor/motorola/cedric/proprietary/lib64/libsd_sdk_display.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsd_sdk_display.so \
+    vendor/motorola/cedric/proprietary/lib64/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-disp-apis.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libOmxVideoDSMode.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVideoDSMode.so \
     vendor/motorola/cedric/proprietary/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/motorola/cedric/proprietary/lib/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/motorola/cedric/proprietary/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc \
     vendor/motorola/cedric/proprietary/vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti \
     vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qdutils_disp@1.0_vendor.so \
-    vendor/motorola/cedric/proprietary/lib64/liblocationservice_jni.so:system/lib64/liblocationservice_jni.so \
+    vendor/motorola/cedric/proprietary/lib64/liblocationservice_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocationservice_jni.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/libquipc_os_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libquipc_os_api.so \
-    vendor/motorola/cedric/proprietary/lib64/libxt_native.so:system/lib64/libxt_native.so \
+    vendor/motorola/cedric/proprietary/lib64/libxt_native.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxt_native.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtwifi_ulp_adaptor.so \
     vendor/motorola/cedric/proprietary/vendor/bin/lowi-server:$(TARGET_COPY_OUT_VENDOR)/bin/lowi-server
 
