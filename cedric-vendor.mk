@@ -60,13 +60,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/motorola/cedric/proprietary/vendor/bin/loc_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/loc_launcher \
     vendor/motorola/cedric/proprietary/vendor/bin/xtra-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/xtra-daemon \
-    vendor/motorola/cedric/proprietary/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
-    vendor/motorola/cedric/proprietary/etc/acdbdata/General_cal.acdb:system/etc/acdbdata/General_cal.acdb \
-    vendor/motorola/cedric/proprietary/etc/acdbdata/Global_cal.acdb:system/etc/acdbdata/Global_cal.acdb \
-    vendor/motorola/cedric/proprietary/etc/acdbdata/Handset_cal.acdb:system/etc/acdbdata/Handset_cal.acdb \
-    vendor/motorola/cedric/proprietary/etc/acdbdata/Hdmi_cal.acdb:system/etc/acdbdata/Hdmi_cal.acdb \
-    vendor/motorola/cedric/proprietary/etc/acdbdata/Headset_cal.acdb:system/etc/acdbdata/Headset_cal.acdb \
-    vendor/motorola/cedric/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
+    vendor/motorola/cedric/proprietary/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Bluetooth_cal.acdb \
+    vendor/motorola/cedric/proprietary/etc/acdbdata/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/General_cal.acdb \
+    vendor/motorola/cedric/proprietary/etc/acdbdata/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Global_cal.acdb \
+    vendor/motorola/cedric/proprietary/etc/acdbdata/Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Handset_cal.acdb \
+    vendor/motorola/cedric/proprietary/etc/acdbdata/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Hdmi_cal.acdb \
+    vendor/motorola/cedric/proprietary/etc/acdbdata/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Headset_cal.acdb \
+    vendor/motorola/cedric/proprietary/etc/acdbdata/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Speaker_cal.acdb \
     vendor/motorola/cedric/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
     vendor/motorola/cedric/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/motorola/cedric/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
@@ -143,11 +143,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/etc/firmware/synaptics-tianma-potter-16120802-237533-potter.tdat:system/etc/firmware/synaptics-tianma-potter-16120802-237533-potter.tdat \
     vendor/motorola/cedric/proprietary/etc/firmware/synaptics-tianma-s3203b-16120802-237533-potter.tdat:system/etc/firmware/synaptics-tianma-s3203b-16120802-237533-potter.tdat \
     vendor/motorola/cedric/proprietary/etc/firmware/synaptics-tianma-s3203b-16120901-25d862-cedric.tdat:system/etc/firmware/synaptics-tianma-s3203b-16120901-25d862-cedric.tdat \
-    vendor/motorola/cedric/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
-    vendor/motorola/cedric/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Argentina.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Argentina.bin \
-    vendor/motorola/cedric/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Brazil.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Brazil.bin \
-    vendor/motorola/cedric/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_India.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_India.bin \
-    vendor/motorola/cedric/proprietary/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat:system/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat \
+    vendor/motorola/cedric/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
+    vendor/motorola/cedric/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Argentina.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Argentina.bin \
+    vendor/motorola/cedric/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Brazil.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Brazil.bin \
+    vendor/motorola/cedric/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_India.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_qcom_wlan_nv_India.bin \
+    vendor/motorola/cedric/proprietary/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_wlan_dictionary.dat \
     vendor/motorola/cedric/proprietary/etc/permissions/cneapiclient.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/cneapiclient.xml \
     vendor/motorola/cedric/proprietary/etc/permissions/com.qti.dpmframework.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.qti.dpmframework.xml \
     vendor/motorola/cedric/proprietary/etc/permissions/com.quicinc.cne.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.quicinc.cne.xml \
