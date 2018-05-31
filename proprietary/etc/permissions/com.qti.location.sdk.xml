@@ -10,6 +10,6 @@
 
 <permissions>
 
-<library name="com.qti.location.sdk" file="/system/framework/com.qti.location.sdk.jar"/>
+<library name="com.qti.location.sdk" file="/vendor/framework/com.qti.location.sdk.jar"/>
 
 </permissions>

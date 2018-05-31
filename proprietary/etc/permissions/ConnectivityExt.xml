@@ -6,5 +6,5 @@ Confidential and Proprietary - Qualcomm Technologies, Inc.
 -->
 <permissions>
     <library name="ConnectivityExt"
-        file="/system/framework/ConnectivityExt.jar"/>
+        file="/vendor/framework/ConnectivityExt.jar"/>
 </permissions>

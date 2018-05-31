@@ -10,7 +10,7 @@
 
 <permissions>
 
-<library name="com.qualcomm.location.vzw_library" file="/system/framework/com.qualcomm.location.vzw_library.jar"/>
+<library name="com.qualcomm.location.vzw_library" file="/vendor/framework/com.qualcomm.location.vzw_library.jar"/>
 
 </permissions>
 
