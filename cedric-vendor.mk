@@ -294,9 +294,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib/libSampleAuthJNI.so:system/vendor/lib/libSampleAuthJNI.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libSampleExtAuthJNI.so:system/vendor/lib/libSampleExtAuthJNI.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
-    vendor/motorola/cedric/proprietary/vendor/lib/libSonyDefocus.so:system/vendor/lib/libSonyDefocus.so \
-    vendor/motorola/cedric/proprietary/vendor/lib/libSonyDualPDLibrary.so:system/vendor/lib/libSonyDualPDLibrary.so \
-    vendor/motorola/cedric/proprietary/vendor/lib/libSonyDualPDParam.so:system/vendor/lib/libSonyDualPDParam.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libSubSystemShutdown.so:system/vendor/lib/libSubSystemShutdown.so \
     vendor/motorola/cedric/proprietary/vendor/lib/lib_drplugin_server.so:system/vendor/lib/lib_drplugin_server.so \
