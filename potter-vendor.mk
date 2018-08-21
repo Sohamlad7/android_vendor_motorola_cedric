@@ -944,6 +944,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib/libhdr_tm.so:system/vendor/lib/libhdr_tm.so \
     vendor/motorola/potter/proprietary/vendor/lib/libtinyxml2_1.so:system/vendor/lib/libtinyxml2_1.so \
     vendor/motorola/potter/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libskia.so:system/vendor/lib/libskia.so \
     vendor/motorola/potter/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
     vendor/motorola/potter/proprietary/lib/libjson.so:system/lib/libjson.so \
     vendor/motorola/potter/proprietary/lib/libuiblur.so:system/lib/libuiblur.so \
@@ -1199,6 +1200,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/lib/libsdm-disp-apis.so:system/lib/libsdm-disp-apis.so \
     vendor/motorola/potter/proprietary/lib64/libsd_sdk_display.so:system/lib64/libsd_sdk_display.so \
     vendor/motorola/potter/proprietary/lib64/libsdm-disp-apis.so:system/lib64/libsdm-disp-apis.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/libskia.so:system/vendor/lib64/libskia.so \
     vendor/motorola/potter/proprietary/vendor/lib/libOmxVideoDSMode.so:system/vendor/lib/libOmxVideoDSMode.so \
     vendor/motorola/potter/proprietary/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/motorola/potter/proprietary/lib/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
@@ -1218,6 +1220,14 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib/motorola.hardware.camera.provider@2.4_vendor.so:/system/vendor/lib/motorola.hardware.camera.provider@2.4_vendor.so \
     vendor/motorola/potter/proprietary/vendor/bin/hw/motorola.hardware.camera.provider@2.4-service:/system/vendor/bin/hw/motorola.hardware.camera.provider@2.4-service \
     vendor/motorola/potter/proprietary/vendor/etc/init/motorola.hardware.camera.provider@2.4-service_delayed.rc:/system/vendor/etc/init/motorola.hardware.camera.provider@2.4-service_delayed.rc \
+    vendor/motorola/potter/proprietary/lib/libcamera2ndk.so:/system/lib/libcamera2ndk.so \
+    vendor/motorola/potter/proprietary/lib/libcamera_client.so:/system/lib/libcamera_client.so \
+    vendor/motorola/potter/proprietary/lib/libcamera_metadata.so:/system/lib/libcamera_metadata.so \
+    vendor/motorola/potter/proprietary/lib/libcameraservice.so:/system/lib/libcameraservice.so \
+    vendor/motorola/potter/proprietary/lib64/libcamera2ndk.so:/system/lib64/libcamera2ndk.so \
+    vendor/motorola/potter/proprietary/lib64/libcamera_client.so:/system/lib64/libcamera_client.so \
+    vendor/motorola/potter/proprietary/lib64/libcamera_metadata.so:/system/lib64/libcamera_metadata.so \
+    vendor/motorola/potter/proprietary/lib64/libcameraservice.so:/system/lib64/libcameraservice.so \
 
 
 PRODUCT_PACKAGES += \
