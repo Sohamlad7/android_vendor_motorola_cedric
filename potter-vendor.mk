@@ -1260,5 +1260,7 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleCS47L35 \
     HotwordEnrollmentTGoogleCS47L35 \
     HotwordEnrollmentXGoogleCS47L35 \
-    QtiTelephonyService
+    QtiTelephonyService \
+    ims \
+    CNEService
 
