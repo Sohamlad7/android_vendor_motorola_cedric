@@ -1133,8 +1133,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
     vendor/motorola/potter/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
     vendor/motorola/potter/proprietary/vendor/lib/libgralloc1.so:system/vendor/lib/libgralloc1.so \
-    vendor/motorola/potter/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so \
+    vendor/motorola/potter/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0.so:system/vendor/lib/vendor.qti.hardware.fm@1.0.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0.so:system/vendor/lib64/vendor.qti.hardware.fm@1.0.so \
     vendor/motorola/potter/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/motorola/potter/proprietary/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/motorola/potter/proprietary/vendor/lib64/hw/gatekeeper.msm8953.so:system/vendor/lib64/hw/gatekeeper.msm8953.so \
