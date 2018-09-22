@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),potter)
+ifeq ($(TARGET_DEVICE),cedric)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.qti.hardware.fm@1.0

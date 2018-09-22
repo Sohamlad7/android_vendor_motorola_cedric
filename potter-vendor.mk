@@ -138,7 +138,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/motorola/potter/proprietary/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
     vendor/motorola/potter/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
-    vendor/motorola/potter/proprietary/vendor/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
+    vendor/motorola/potter/proprietary/vendor/lib/hw/camera.msm8937.so:system/vendor/lib/hw/camera.msm8953.so \
     vendor/motorola/potter/proprietary/lib/hw/fingerprint.msm8953.so:system/vendor/lib/hw/fingerprint.vendor.msm8953.so \
     vendor/motorola/potter/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/motorola/potter/proprietary/vendor/lib/lib_motsensorlistener.so:system/lib/lib_motsensorlistener.so \
