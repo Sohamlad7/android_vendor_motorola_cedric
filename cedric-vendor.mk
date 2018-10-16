@@ -148,7 +148,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib/libadvalgcore.so:system/lib/libadvalgcore.so \
     vendor/motorola/cedric/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libcamerabgprocservice.so:system/lib/libcamerabgprocservice.so \
-    vendor/motorola/cedric/proprietary/lib/libcom_fingerprints_service.so:system/lib/libcom_fingerprints_service.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libdtvtuner.so:system/vendor/lib/libdtvtuner.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/libdtvtuner.so:system/vendor/lib64/libdtvtuner.so \
     vendor/motorola/cedric/proprietary/lib/libfamily_photo.so:system/lib/libfamily_photo.so \
@@ -1226,7 +1225,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib64/vendor.display.color@1.0.so:/system/vendor/lib64/vendor.display.color@1.0.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/vendor.display.color@1.1.so:/system/vendor/lib64/vendor.display.color@1.1.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/vendor.display.postproc@1.0.so:/system/vendor/lib64/vendor.display.postproc@1.0.so \
-    vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:/system/vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
+    vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:/system/vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
+    vendor/motorola/cedric/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice:system/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice \
+    vendor/motorola/cedric/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:system/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
+    vendor/motorola/cedric/proprietary/vendor/lib/com.fingerprints.extension@1.0_vendor.so:system/vendor/lib/com.fingerprints.extension@1.0_vendor.so
 
 PRODUCT_PACKAGES += \
     TimeService \
