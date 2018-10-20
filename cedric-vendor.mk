@@ -1260,6 +1260,5 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentTGoogleCS47L35 \
     HotwordEnrollmentXGoogleCS47L35 \
     QtiTelephonyService \
-    ims \
     CNEService \
     libbtnv
