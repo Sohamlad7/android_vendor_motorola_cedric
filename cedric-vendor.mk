@@ -1218,6 +1218,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib64/libGPreqcancel_svc.so:system/vendor/lib64/libGPreqcancel_svc.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/libqisl.so:system/vendor/lib64/libqisl.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/android.hardware.gatekeeper@1.0-impl-qti.so:system/vendor/lib64/android.hardware.gatekeeper@1.0-impl-qti.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libStDrvInt.so:system/vendor/lib64/libStDrvInt.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
