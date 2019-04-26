@@ -1000,7 +1000,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
 
 PRODUCT_PACKAGES += \
-    TimeService \
     embms \
     com.qti.location.sdk \
     com.qti.snapdragon.sdk.display \
