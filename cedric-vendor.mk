@@ -1313,4 +1313,5 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib64/libhdcpsrm.so:/system/vendor/lib64/libhdcpsrm.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/libwvhidl.so:/system/vendor/lib64/libwvhidl.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/vendor.display.config@1.2.so:/system/vendor/lib64/vendor.display.config@1.2.so \
-    vendor/motorola/cedric/proprietary/vendor/lib64/vendor.display.config@1.3.so:/system/vendor/lib64/vendor.display.config@1.3.so
+    vendor/motorola/cedric/proprietary/vendor/lib64/vendor.display.config@1.3.so:/system/vendor/lib64/vendor.display.config@1.3.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/vendor.display.config@1.4.so:/system/vendor/lib64/vendor.display.config@1.4.so
