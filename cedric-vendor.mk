@@ -223,6 +223,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib/motorola.hardware.camera.device@1.0.so:system/vendor/lib/motorola.hardware.camera.device@1.0.so \
     vendor/motorola/cedric/proprietary/vendor/lib/vendor.display.color@1.0.so:system/vendor/lib/vendor.display.color@1.0.so \
     vendor/motorola/cedric/proprietary/vendor/lib/vendor.display.color@1.1.so:system/vendor/lib/vendor.display.color@1.1.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/vendor.display.color@1.2.so:system/vendor/lib64/vendor.display.color@1.2.so \
     vendor/motorola/cedric/proprietary/vendor/lib/vendor.display.postproc@1.0.so:system/vendor/lib/vendor.display.postproc@1.0.so \
     vendor/motorola/cedric/proprietary/vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so:system/vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/motorola/cedric/proprietary/vendor/lib/com.fingerprints.extension@1.0_vendor.so:system/vendor/lib/com.fingerprints.extension@1.0_vendor.so \
