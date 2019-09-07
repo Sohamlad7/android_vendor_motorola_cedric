@@ -1363,3 +1363,5 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/firmware/a506_zap.b02:system/vendor/firmware/a506_zap.b02 \
     vendor/motorola/cedric/proprietary/vendor/firmware/a506_zap.elf:system/vendor/firmware/a506_zap.elf \
     vendor/motorola/cedric/proprietary/vendor/firmware/a506_zap.mdt:system/vendor/firmware/a506_zap.mdt
+
+PRODUCT_SOONG_NAMESPACES += vendor/motorola/cedric
