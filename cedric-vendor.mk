@@ -59,7 +59,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/bin/hw/vendor.qti.gnss@1.0-service:system/vendor/bin/hw/vendor.qti.gnss@1.0-service \
     vendor/motorola/cedric/proprietary/vendor/bin/hw/vendor.qti.hardware.iop@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.iop@1.0-service \
     vendor/motorola/cedric/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service \
-    vendor/motorola/cedric/proprietary/vendor/bin/hw/motorola.hardware.camera.provider@2.4-service:system/vendor/bin/hw/motorola.hardware.camera.provider@2.4-service \
     vendor/motorola/cedric/proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti:/system/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti \
     vendor/motorola/cedric/proprietary/vendor/bin/hw/vendor.qti.hardware.soter@1.0-service:/system/vendor/bin/hw/vendor.qti.hardware.soter@1.0-service \
     vendor/motorola/cedric/proprietary/vendor/radio/qcril_database/qcril.db:system/vendor/radio/qcril_database/qcril.db \
@@ -181,7 +180,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.cedric.rc:system/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.cedric.rc \
     vendor/motorola/cedric/proprietary/vendor/etc/init/vendor.qti.gnss@1.0-service.rc:system/vendor/etc/init/vendor.qti.gnss@1.0-service.rc \
     vendor/motorola/cedric/proprietary/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc:system/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc \
-    vendor/motorola/cedric/proprietary/vendor/etc/init/motorola.hardware.camera.provider@2.4-service_delayed.rc:system/vendor/etc/init/motorola.hardware.camera.provider@2.4-service_delayed.rc \
+    vendor/motorola/cedric/proprietary/vendor/lib/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@1.0-impl.so \
     vendor/motorola/cedric/proprietary/vendor/etc/init/vendor.qti.hardware.iop@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.iop@1.0-service.rc \
     vendor/motorola/cedric/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc \
     vendor/motorola/cedric/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:system/vendor/etc/init/vendor.display.color@1.0-service.rc \
@@ -233,12 +232,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib/hw/vendor.qti.gnss@1.0-impl.so:system/vendor/lib/hw/vendor.qti.gnss@1.0-impl.so \
     vendor/motorola/cedric/proprietary/vendor/lib/hw/vendor.qti.hardware.iop@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.iop@1.0-impl.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libOmxVideoDSMode.so:system/vendor/lib/libOmxVideoDSMode.so \
-    vendor/motorola/cedric/proprietary/vendor/lib/motcamera.device@1.0-impl.so:system/vendor/lib/motcamera.device@1.0-impl.so \
     vendor/motorola/cedric/proprietary/vendor/lib/motorola.hardware.camera.device@1.0.so:system/vendor/lib/motorola.hardware.camera.device@1.0.so \
-    vendor/motorola/cedric/proprietary/vendor/lib/motorola.hardware.camera.device@1.0_vendor.so:system/vendor/lib/motorola.hardware.camera.device@1.0_vendor.so \
-    vendor/motorola/cedric/proprietary/vendor/lib/hw/motorola.hardware.camera.provider@2.4-impl.so:system/vendor/lib/hw/motorola.hardware.camera.provider@2.4-impl.so \
-    vendor/motorola/cedric/proprietary/vendor/lib/motorola.hardware.camera.provider@2.4.so:system/vendor/lib/motorola.hardware.camera.provider@2.4.so \
-    vendor/motorola/cedric/proprietary/vendor/lib/motorola.hardware.camera.provider@2.4_vendor.so:system/vendor/lib/motorola.hardware.camera.provider@2.4_vendor.so \
     vendor/motorola/cedric/proprietary/vendor/lib/vendor.display.color@1.0.so:system/vendor/lib/vendor.display.color@1.0.so \
     vendor/motorola/cedric/proprietary/vendor/lib/vendor.display.color@1.1.so:system/vendor/lib/vendor.display.color@1.1.so \
     vendor/motorola/cedric/proprietary/vendor/lib/vendor.display.postproc@1.0.so:system/vendor/lib/vendor.display.postproc@1.0.so \
