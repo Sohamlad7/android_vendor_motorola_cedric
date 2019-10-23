@@ -308,11 +308,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/motorola/cedric/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:system/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti \
-    vendor/motorola/cedric/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.clearkey:/system/vendor/bin/hw/android.hardware.drm@1.1-service.clearkey \
     vendor/motorola/cedric/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:/system/vendor/bin/hw/android.hardware.drm@1.1-service.widevine \
     vendor/motorola/cedric/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:system/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/motorola/cedric/proprietary/vendor/etc/init/android.hardware.sensors@1.0-service.rc:/system/vendor/etc/init/android.hardware.sensors@1.0-service.rc \
-    vendor/motorola/cedric/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.clearkey.rc:/system/vendor/etc/init/android.hardware.drm@1.1-service.clearkey.rc \
     vendor/motorola/cedric/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc:/system/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc \
     vendor/motorola/cedric/proprietary/vendor/lib/libc2d30_bltlib.so:system/vendor/lib/libc2d30_bltlib.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libcamerabgproc-jni.so:system/vendor/lib/libcamerabgproc-jni.so \
