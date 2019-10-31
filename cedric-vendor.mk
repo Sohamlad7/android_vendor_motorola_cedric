@@ -212,7 +212,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
     vendor/motorola/cedric/proprietary/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
     vendor/motorola/cedric/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
-    vendor/motorola/cedric/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libcameraservice.so \
+    vendor/motorola/cedric/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
     vendor/motorola/cedric/proprietary/lib/libzxingcpp.so:system/lib/libzxingcpp.so \
     vendor/motorola/cedric/proprietary/lib/libmotaudioutils.so:system/lib/libmotaudioutils.so \
     vendor/motorola/cedric/proprietary/lib/libmotefem_svc.so:system/lib/libmotefem_svc.so \
