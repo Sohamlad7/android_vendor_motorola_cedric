@@ -207,10 +207,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/lib/vendor.qti.hardware.fm@1.0.so:system/lib/vendor.qti.hardware.fm@1.0.so \
     vendor/motorola/cedric/proprietary/lib/libsdm-disp-apis.so:system/lib/libsdm-disp-apis.so \
     vendor/motorola/cedric/proprietary/lib/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
-    vendor/motorola/cedric/proprietary/lib/libcamera2ndk.so:system/lib/libcamera2ndk.so \
-    vendor/motorola/cedric/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
-    vendor/motorola/cedric/proprietary/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
-    vendor/motorola/cedric/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
     vendor/motorola/cedric/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
     vendor/motorola/cedric/proprietary/lib/libzxingcpp.so:system/lib/libzxingcpp.so \
     vendor/motorola/cedric/proprietary/lib/libmotaudioutils.so:system/lib/libmotaudioutils.so \
@@ -1093,10 +1089,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
     vendor/motorola/cedric/proprietary/lib64/libsdm-disp-apis.so:system/lib64/libsdm-disp-apis.so \
     vendor/motorola/cedric/proprietary/lib64/libxt_native.so:system/lib64/libxt_native.so \
-    vendor/motorola/cedric/proprietary/lib64/libcamera2ndk.so:system/lib64/libcamera2ndk.so \
-    vendor/motorola/cedric/proprietary/lib64/libcamera_client.so:system/lib64/libcamera_client.so \
-    vendor/motorola/cedric/proprietary/lib64/libcamera_metadata.so:system/lib64/libcamera_metadata.so \
-    vendor/motorola/cedric/proprietary/lib64/libcameraservice.so:system/lib64/libcameraservice.so \
     vendor/motorola/cedric/proprietary/lib64/liblocationservice_jni.so:system/lib64/liblocationservice_jni.so \
     vendor/motorola/cedric/proprietary/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so:/system/vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so \
