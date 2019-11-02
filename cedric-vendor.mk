@@ -19,7 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/motorola/cedric/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
     vendor/motorola/cedric/proprietary/bin/radish:system/bin/radish \
-    vendor/motorola/cedric/proprietary/bin/perfservice:/system/bin/perfservice \
+    vendor/motorola/cedric/proprietary/bin/perfservice:system/bin/perfservice \
     vendor/motorola/cedric/proprietary/vendor/bin/adspd:system/vendor/bin/adspd \
     vendor/motorola/cedric/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/motorola/cedric/proprietary/vendor/bin/akmd09912:system/vendor/bin/akmd09912 \
@@ -58,7 +58,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:system/vendor/bin/hw/vendor.display.color@1.0-service \
     vendor/motorola/cedric/proprietary/vendor/bin/hw/vendor.qti.gnss@1.0-service:system/vendor/bin/hw/vendor.qti.gnss@1.0-service \
     vendor/motorola/cedric/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service \
-    vendor/motorola/cedric/proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti:/system/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti \
+    vendor/motorola/cedric/proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti:system/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti \
     vendor/motorola/cedric/proprietary/vendor/radio/qcril_database/qcril.db:system/vendor/radio/qcril_database/qcril.db \
     vendor/motorola/cedric/proprietary/etc/data/dsi_config.xml:system/vendor/etc/data/dsi_config.xml \
     vendor/motorola/cedric/proprietary/etc/data/netmgr_config.xml:system/vendor/etc/data/netmgr_config.xml \
@@ -169,8 +169,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile4.xml:system/vendor/etc/cne/wqeclient/VZW/VZW_profile4.xml \
     vendor/motorola/cedric/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile5.xml:system/vendor/etc/cne/wqeclient/VZW/VZW_profile5.xml \
     vendor/motorola/cedric/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml:system/vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml \
-    vendor/motorola/cedric/proprietary/etc/init/perfservice.rc:/system/etc/init/perfservice.rc \
-    vendor/motorola/cedric/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:/system/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti \
+    vendor/motorola/cedric/proprietary/etc/init/perfservice.rc:system/etc/init/perfservice.rc \
+    vendor/motorola/cedric/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:system/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti \
     vendor/motorola/cedric/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.cedric.rc:system/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.cedric.rc \
     vendor/motorola/cedric/proprietary/vendor/etc/init/vendor.qti.gnss@1.0-service.rc:system/vendor/etc/init/vendor.qti.gnss@1.0-service.rc \
     vendor/motorola/cedric/proprietary/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc:system/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc \
@@ -185,9 +185,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/lib/hw/fingerprint.msm8937.so:system/vendor/lib/hw/fingerprint.vendor.msm8937.so \
     vendor/motorola/cedric/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/motorola/cedric/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
-    vendor/motorola/cedric/proprietary/vendor/lib/libcpion.so:/system/vendor/lib/libcpion.so \
-    vendor/motorola/cedric/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:/system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
-    vendor/motorola/cedric/proprietary/vendor/lib/libhdcpsrm.so:/system/vendor/lib/libhdcpsrm.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libcpion.so:system/vendor/lib/libcpion.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libhdcpsrm.so:system/vendor/lib/libhdcpsrm.so \
     vendor/motorola/cedric/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
     vendor/motorola/cedric/proprietary/lib/libfamily_photo.so:system/lib/libfamily_photo.so \
     vendor/motorola/cedric/proprietary/lib/libmdmcutback.so:system/lib/libmdmcutback.so \
@@ -305,10 +305,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/motorola/cedric/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:system/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti \
-    vendor/motorola/cedric/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:/system/vendor/bin/hw/android.hardware.drm@1.1-service.widevine \
+    vendor/motorola/cedric/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:system/vendor/bin/hw/android.hardware.drm@1.1-service.widevine \
     vendor/motorola/cedric/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:system/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
-    vendor/motorola/cedric/proprietary/vendor/etc/init/android.hardware.sensors@1.0-service.rc:/system/vendor/etc/init/android.hardware.sensors@1.0-service.rc \
-    vendor/motorola/cedric/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc:/system/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc \
+    vendor/motorola/cedric/proprietary/vendor/etc/init/android.hardware.sensors@1.0-service.rc:system/vendor/etc/init/android.hardware.sensors@1.0-service.rc \
+    vendor/motorola/cedric/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc:system/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc \
     vendor/motorola/cedric/proprietary/vendor/lib/libc2d30_bltlib.so:system/vendor/lib/libc2d30_bltlib.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libcamerabgproc-jni.so:system/vendor/lib/libcamerabgproc-jni.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
@@ -1015,17 +1015,17 @@ PRODUCT_COPY_FILES += \
      vendor/motorola/cedric/proprietary/lib64/libOmxMux.so:system/lib64/libOmxMux.so \
      vendor/motorola/cedric/proprietary/lib64/libwfdclient.so:system/lib64/libwfdclient.so \
      vendor/motorola/cedric/proprietary/lib64/libwfdnative.so:system/lib64/libwfdnative.so \
-     vendor/motorola/cedric/proprietary/vendor/bin/wifidisplayhalservice:/system/vendor/bin/wifidisplayhalservice \
-     vendor/motorola/cedric/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:/system/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
-     vendor/motorola/cedric/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so:/system/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so \
-     vendor/motorola/cedric/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:/system/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
-     vendor/motorola/cedric/proprietary/vendor/lib/libmmosal_proprietary.so:/system/vendor/lib/libmmosal_proprietary.so \
-     vendor/motorola/cedric/proprietary/vendor/lib/libwfdcommonutils_proprietary.so:/system/vendor/lib/libwfdcommonutils_proprietary.so \
-     vendor/motorola/cedric/proprietary/vendor/lib/libwfdhaldsmanager.so:/system/vendor/lib/libwfdhaldsmanager.so \
-     vendor/motorola/cedric/proprietary/vendor/lib/libwfdmmservice.so:/system/vendor/lib/libwfdmmservice.so \
-     vendor/motorola/cedric/proprietary/vendor/lib/libwfdmodulehdcpsession.so:/system/vendor/lib/libwfdmodulehdcpsession.so \
-     vendor/motorola/cedric/proprietary/vendor/lib64/libmmosal_proprietary.so:/system/vendor/lib64/libmmosal_proprietary.so \
-     vendor/motorola/cedric/proprietary/vendor/lib64/libwfdhdcpcp.so:/system/vendor/lib64/libwfdhdcpcp.so
+     vendor/motorola/cedric/proprietary/vendor/bin/wifidisplayhalservice:system/vendor/bin/wifidisplayhalservice \
+     vendor/motorola/cedric/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:system/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
+     vendor/motorola/cedric/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so:system/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so \
+     vendor/motorola/cedric/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:system/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
+     vendor/motorola/cedric/proprietary/vendor/lib/libmmosal_proprietary.so:system/vendor/lib/libmmosal_proprietary.so \
+     vendor/motorola/cedric/proprietary/vendor/lib/libwfdcommonutils_proprietary.so:system/vendor/lib/libwfdcommonutils_proprietary.so \
+     vendor/motorola/cedric/proprietary/vendor/lib/libwfdhaldsmanager.so:system/vendor/lib/libwfdhaldsmanager.so \
+     vendor/motorola/cedric/proprietary/vendor/lib/libwfdmmservice.so:system/vendor/lib/libwfdmmservice.so \
+     vendor/motorola/cedric/proprietary/vendor/lib/libwfdmodulehdcpsession.so:system/vendor/lib/libwfdmodulehdcpsession.so \
+     vendor/motorola/cedric/proprietary/vendor/lib64/libmmosal_proprietary.so:system/vendor/lib64/libmmosal_proprietary.so \
+     vendor/motorola/cedric/proprietary/vendor/lib64/libwfdhdcpcp.so:system/vendor/lib64/libwfdhdcpcp.so
 
 # RIL & IMS
 PRODUCT_COPY_FILES += \
@@ -1107,7 +1107,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
     vendor/motorola/cedric/proprietary/lib64/libsdm-disp-apis.so:system/lib64/libsdm-disp-apis.so \
     vendor/motorola/cedric/proprietary/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
-    vendor/motorola/cedric/proprietary/vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so:/system/vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:system/vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/libFlacSwDec.so:system/vendor/lib64/libFlacSwDec.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/liboemcrypto.so:system/vendor/lib64/liboemcrypto.so \
@@ -1339,25 +1339,25 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib64/vendor.display.postproc@1.0.so:system/vendor/lib64/vendor.display.postproc@1.0.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:system/vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/libI420colorconvert.so:system/vendor/lib64/libI420colorconvert.so \
-    vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so:/system/vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so \
-    vendor/motorola/cedric/proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti:/system/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti \
-    vendor/motorola/cedric/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:/system/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti \
-    vendor/motorola/cedric/proprietary/vendor/lib64/libqti-iopd-client_system.so:/system/vendor/lib64/libqti-iopd-client_system.so \
-    vendor/motorola/cedric/proprietary/vendor/lib64/libqti-perfd-client_system.so:/system/vendor/lib64/libqti-perfd-client_system.so \
-    vendor/motorola/cedric/proprietary/vendor/lib64/libqti-util_system.so:/system/vendor/lib64/libqti-util_system.so \
-    vendor/motorola/cedric/proprietary/vendor/lib64/libqti-util_system.so:/system/vendor/lib64/libqti-util_system.so \
-    vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.hardware.iop@2.0-impl.so:/system/vendor/lib64/vendor.qti.hardware.iop@2.0-impl.so \
-    vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.hardware.iop@2.0.so:/system/vendor/lib64/vendor.qti.hardware.iop@2.0.so \
-    vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0.so:/system/vendor/lib64/vendor.qti.hardware.perf@1.0.so \
-    vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.hardware.wifi.hostapd@1.0.so:/system/vendor/lib64/vendor.qti.hardware.wifi.hostapd@1.0.so \
-    vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.hardware.wifi.supplicant@1.0.so:/system/vendor/lib64/vendor.qti.hardware.wifi.supplicant@1.0.so \
-    vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.hardware.wifi.supplicant@2.0.so:/system/vendor/lib64/vendor.qti.hardware.wifi.supplicant@2.0.so \
-    vendor/motorola/cedric/proprietary/vendor/lib64/libcpion.so:/system/vendor/lib64/libcpion.so \
-    vendor/motorola/cedric/proprietary/vendor/lib64/libhdcpsrm.so:/system/vendor/lib64/libhdcpsrm.so \
-    vendor/motorola/cedric/proprietary/vendor/lib64/libwvhidl.so:/system/vendor/lib64/libwvhidl.so \
-    vendor/motorola/cedric/proprietary/vendor/lib64/vendor.display.config@1.2.so:/system/vendor/lib64/vendor.display.config@1.2.so \
-    vendor/motorola/cedric/proprietary/vendor/lib64/vendor.display.config@1.3.so:/system/vendor/lib64/vendor.display.config@1.3.so \
-    vendor/motorola/cedric/proprietary/vendor/lib64/vendor.display.config@1.4.so:/system/vendor/lib64/vendor.display.config@1.4.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so:system/vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so \
+    vendor/motorola/cedric/proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti:system/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti \
+    vendor/motorola/cedric/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:system/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libqti-iopd-client_system.so:system/vendor/lib64/libqti-iopd-client_system.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libqti-perfd-client_system.so:system/vendor/lib64/libqti-perfd-client_system.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libqti-util_system.so:system/vendor/lib64/libqti-util_system.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libqti-util_system.so:system/vendor/lib64/libqti-util_system.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.hardware.iop@2.0-impl.so:system/vendor/lib64/vendor.qti.hardware.iop@2.0-impl.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.hardware.iop@2.0.so:system/vendor/lib64/vendor.qti.hardware.iop@2.0.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0.so:system/vendor/lib64/vendor.qti.hardware.perf@1.0.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.hardware.wifi.hostapd@1.0.so:system/vendor/lib64/vendor.qti.hardware.wifi.hostapd@1.0.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.hardware.wifi.supplicant@1.0.so:system/vendor/lib64/vendor.qti.hardware.wifi.supplicant@1.0.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.hardware.wifi.supplicant@2.0.so:system/vendor/lib64/vendor.qti.hardware.wifi.supplicant@2.0.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libcpion.so:system/vendor/lib64/libcpion.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libhdcpsrm.so:system/vendor/lib64/libhdcpsrm.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libwvhidl.so:system/vendor/lib64/libwvhidl.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/vendor.display.config@1.2.so:system/vendor/lib64/vendor.display.config@1.2.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/vendor.display.config@1.3.so:system/vendor/lib64/vendor.display.config@1.3.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/vendor.display.config@1.4.so:system/vendor/lib64/vendor.display.config@1.4.so \
     vendor/motorola/cedric/proprietary/vendor/firmware/a506_zap.b00:system/vendor/firmware/a506_zap.b00 \
     vendor/motorola/cedric/proprietary/vendor/firmware/a506_zap.b01:system/vendor/firmware/a506_zap.b01 \
     vendor/motorola/cedric/proprietary/vendor/firmware/a506_zap.b02:system/vendor/firmware/a506_zap.b02 \
