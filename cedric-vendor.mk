@@ -1326,7 +1326,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib64/lib-imsvtutils.so:system/vendor/lib64/lib-imsvtutils.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/lib-uceservice.so:system/vendor/lib64/lib-uceservice.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/libdiag_system.so:system/vendor/lib64/libdiag_system.so \
-    vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.hardware.camera.device@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.camera.device@1.0_vendor.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so:system/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so:system/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/libsensorndkbridge.so:system/vendor/lib64/libsensorndkbridge.so \
