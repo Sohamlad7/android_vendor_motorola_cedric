@@ -1318,7 +1318,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/libalarmservice_jni.so:system/vendor/lib64/libalarmservice_jni.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.hardware.alarm@1.0.so:system/vendor/lib64/vendor.qti.hardware.alarm@1.0.so \
-    vendor/motorola/cedric/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/motorola/cedric/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so:system/vendor/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/lib-dplmedia.so:system/vendor/lib64/lib-dplmedia.so \
@@ -1354,6 +1353,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.hardware.wifi.hostapd@1.0.so:system/vendor/lib64/vendor.qti.hardware.wifi.hostapd@1.0.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.hardware.wifi.supplicant@1.0.so:system/vendor/lib64/vendor.qti.hardware.wifi.supplicant@1.0.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.hardware.wifi.supplicant@2.0.so:system/vendor/lib64/vendor.qti.hardware.wifi.supplicant@2.0.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.ims.callinfo@1.0.so:system/vendor/lib64/vendor.qti.ims.callinfo@1.0.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/vendor/lib64/com.qualcomm.qti.imscmservice@1.0.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@2.0.so:system/vendor/lib64/com.qualcomm.qti.imscmservice@2.0.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@2.1.so:system/vendor/lib64/com.qualcomm.qti.imscmservice@2.1.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/com.qualcomm.qti.uceservice@2.0.so:system/vendor/lib64/com.qualcomm.qti.uceservice@2.0.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/lib-imsrcsbaseimpl.so:system/vendor/lib64/lib-imsrcsbaseimpl.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/libcpion.so:system/vendor/lib64/libcpion.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/libhdcpsrm.so:system/vendor/lib64/libhdcpsrm.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/libwvhidl.so:system/vendor/lib64/libwvhidl.so \
