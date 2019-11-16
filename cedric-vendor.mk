@@ -62,7 +62,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/radio/qcril_database/qcril.db:system/vendor/radio/qcril_database/qcril.db \
     vendor/motorola/cedric/proprietary/etc/data/dsi_config.xml:system/vendor/etc/data/dsi_config.xml \
     vendor/motorola/cedric/proprietary/etc/data/netmgr_config.xml:system/vendor/etc/data/netmgr_config.xml \
-    vendor/motorola/cedric/proprietary/vendor/firmware/libpn548ad_fw.so:system/lib/libpn548ad_fw.so \
+    vendor/motorola/cedric/proprietary/lib/libpn548ad_fw.so:system/lib/libpn548ad_fw.so \
     vendor/motorola/cedric/proprietary/etc/firmware/upd-00000126-00001001-fed70128-fffe0001-02.tftf:system/etc/firmware/upd-00000126-00001001-fed70128-fffe0001-02.tftf \
     vendor/motorola/cedric/proprietary/etc/firmware/a530_gpmu.fw2:system/etc/firmware/a530_gpmu.fw2 \
     vendor/motorola/cedric/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
@@ -249,7 +249,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libmorpho_image_stabilizer4.so:system/lib/libmorpho_image_stabilizer4.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libjscore.so:system/lib/libjscore.so \
-    vendor/motorola/cedric/proprietary/vendor/lib/libjustshoot.so:system/lib/libjustshoot.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libjustshoot.so:system/vendor/lib/libjustshoot.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libmbs.so:system/lib/libmbs.so \
