@@ -77,13 +77,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/rampatch_tlv_3.0.tlv \
     vendor/motorola/cedric/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/rampatch_tlv_3.2.tlv \
     vendor/motorola/cedric/proprietary/etc/firmware/sensorhubfw.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/sensorhubfw.bin \
-    vendor/motorola/cedric/proprietary/etc/firmware/synaptics-boe-cedric-16112102-25d862-cedric.tdat:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/synaptics-boe-cedric-16112102-25d862-cedric.tdat \
-    vendor/motorola/cedric/proprietary/etc/firmware/synaptics-boe-s3203b-16112102-25d862-cedric.tdat:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/synaptics-boe-s3203b-16112102-25d862-cedric.tdat \
     vendor/motorola/cedric/proprietary/etc/firmware/synaptics-s3508-16082601-255c40-addison.tdat:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/synaptics-s3508-16082601-255c40-addison.tdat \
     vendor/motorola/cedric/proprietary/etc/firmware/synaptics-s3508sga-16082601-255c40-addison.tdat:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/synaptics-s3508sga-16082601-255c40-addison.tdat \
     vendor/motorola/cedric/proprietary/etc/firmware/synaptics-s3508sga-16103104-255c40-albus.tdat:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/synaptics-s3508sga-16103104-255c40-albus.tdat \
-    vendor/motorola/cedric/proprietary/etc/firmware/synaptics-tianma-cedric-17011001-237533-cedric.tdat:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/synaptics-tianma-cedric-17011001-237533-cedric.tdat \
-    vendor/motorola/cedric/proprietary/etc/firmware/synaptics-tianma-s3203b-17011001-237533-cedric.tdat:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/synaptics-tianma-s3203b-17011001-237533-cedric.tdat \
+    vendor/motorola/cedric/proprietary/etc/firmware/synaptics-tianma-s3203b-16120901-25d862-cedric.tdat:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/synaptics-tianma-s3203b-16120901-25d862-cedric.tdat \
     vendor/motorola/cedric/proprietary/etc/firmware/upd-00000126-00001001-fed70128-fffe0001-02.tftf:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/upd-00000126-00001001-fed70128-fffe0001-02.tftf \
     vendor/motorola/cedric/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/motorola/cedric/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Argentina.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Argentina.bin \
@@ -248,6 +245,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
     vendor/motorola/cedric/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/motorola/cedric/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
+    vendor/motorola/cedric/proprietary/vendor/etc/init/android.hardware.sensors@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@1.0-service.rc \
     vendor/motorola/cedric/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.widevine.rc \
     vendor/motorola/cedric/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
     vendor/motorola/cedric/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
@@ -959,7 +957,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib/libsensor_reg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor_reg.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libsensorhubservice_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorhubservice_jni.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libsettings.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsettings.so \
-    vendor/motorola/cedric/proprietary/vendor/lib/libskia.so:$(TARGET_COPY_OUT_VENDOR)/lib/libskia.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libslimclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libslimclient.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssd.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libsubsystem_control.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsubsystem_control.so \
@@ -1249,7 +1246,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib64/libsecureui_svcsock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecureui_svcsock.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorndkbridge.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/libsettings.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsettings.so \
-    vendor/motorola/cedric/proprietary/vendor/lib64/libskia.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libskia.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/libslimclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libslimclient.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssd.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/libsubsystem_control.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsubsystem_control.so \
