@@ -18,7 +18,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/motorola/cedric
 
 PRODUCT_COPY_FILES += \
-    vendor/motorola/cedric/proprietary/bin/charge_only_mode:$(TARGET_COPY_OUT_SYSTEM)/bin/charge_only_mode \
     vendor/motorola/cedric/proprietary/bin/ipacm-diag:$(TARGET_COPY_OUT_SYSTEM)/bin/ipacm-diag \
     vendor/motorola/cedric/proprietary/bin/perfservice:$(TARGET_COPY_OUT_SYSTEM)/bin/perfservice \
     vendor/motorola/cedric/proprietary/bin/ptt_socket_app:$(TARGET_COPY_OUT_SYSTEM)/bin/ptt_socket_app \
