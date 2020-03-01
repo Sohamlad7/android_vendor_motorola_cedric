@@ -1139,6 +1139,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libbtnv \
+    libloc_api_v02 \
     vendor.qti.hardware.fm@1.0 \
     QtiTelephonyService \
     ims \
